@@ -53,7 +53,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "55a20cd6ff21553e",
@@ -90,6 +91,7 @@
   "active": "7e27465223d14cf2",
   "lastOpenFiles": [
     "math/stats/Covariance matrices.md",
+    "math/linear algebra/Diagonalizing matrices.md",
     "AI/machine learning/Principal Component Analysis.pdf",
     "math/differential equations/MIT opencourseware/Unit 1/Basic DE's.md",
     "math/differential equations/MIT opencourseware/Unit 1/Conventions.md",
@@ -97,7 +99,6 @@
     "math/algebra/Untitled.md",
     "math/algebra/Exercises - systems of linear equations word problems.pdf",
     "math/algebra/linear equations worksheets.md",
-    "math/algebra/Exercises - linear equations, systems of linear equations - OneNote.pdf",
-    "math/algebra/Exercises - systems of linear equations multi method - Kuta.pdf"
+    "math/algebra/Exercises - linear equations, systems of linear equations - OneNote.pdf"
   ]
 }
