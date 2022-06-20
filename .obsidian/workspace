@@ -1,0 +1,103 @@
+{
+  "main": {
+    "id": "d12e3c7cc6a9512d",
+    "type": "split",
+    "children": [
+      {
+        "id": "7e27465223d14cf2",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "math/stats/Covariance matrices.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "82f24eb0b70a3e04",
+    "type": "split",
+    "children": [
+      {
+        "id": "5da83904c6345aea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1f43de2a15f509a5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "3d745b9f354c48a0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "55a20cd6ff21553e",
+    "type": "split",
+    "children": [
+      {
+        "id": "900c1c7495e43892",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "51d2c5b189be7ce1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "math/stats/Covariance matrices.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "7e27465223d14cf2",
+  "lastOpenFiles": [
+    "math/stats/Covariance matrices.md",
+    "AI/machine learning/Principal Component Analysis.pdf",
+    "math/differential equations/MIT opencourseware/Unit 1/Basic DE's.md",
+    "math/differential equations/MIT opencourseware/Unit 1/Conventions.md",
+    "misc/To research.md",
+    "math/algebra/Untitled.md",
+    "math/algebra/Exercises - systems of linear equations word problems.pdf",
+    "math/algebra/linear equations worksheets.md",
+    "math/algebra/Exercises - linear equations, systems of linear equations - OneNote.pdf",
+    "math/algebra/Exercises - systems of linear equations multi method - Kuta.pdf"
+  ]
+}
