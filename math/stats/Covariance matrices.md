@@ -5,6 +5,8 @@ sources:
 - https://towardsdatascience.com/5-things-you-should-know-about-covariance-26b12a0516f1
 - https://builtin.com/data-science/covariance-vs-correlation
 - https://www.simplilearn.com/covariance-vs-correlation-article
+- https://medium.com/swlh/covariance-correlation-r-sqaured-5cbefc5cbe1c
+- https://www.mygreatlearning.com/blog/covariance-vs-correlation/ (has a useful table at the bottom comparing covariance and correlation)
 
 other related topics:
 - linear algebra - matrix basics
@@ -52,5 +54,10 @@ $$
 covariance is unstandardized, so dividing by the product of the standard deviation of each variable will give us a covariance within the range -1, 1 -> which is exactly what the correlation coefficient is
 
 $$
-corr(x, y) = \frac{cov(x, y)}{\sigma_x\sigma_y}
+R = corr(x, y) = \frac{cov(x, y)}{\sigma_x\sigma_y}
+$$
+
+so pearson correlation coefficient is related to covariance by:
+$$
+R^2 = (\frac{cov(x, y)}{\sigma_x\sigma_y})^2
 $$

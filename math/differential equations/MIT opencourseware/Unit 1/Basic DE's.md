@@ -42,4 +42,5 @@ $$
 $$
 m\ddot{x} = -kx - b\dot{x} + F(t)
 $$
-**TODO: separation of variables**
+
+
