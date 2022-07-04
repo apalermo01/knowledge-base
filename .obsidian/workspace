@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "math/differential equations/MIT opencourseware/Unit 1/Basic DE's.md",
+            "file": "AI/neural networks/Fundamentals of Neural Networks.md",
             "mode": "source",
             "source": false
           }
@@ -53,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 646
   },
   "right": {
     "id": "55a20cd6ff21553e",
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "math/differential equations/MIT opencourseware/Unit 1/Basic DE's.md",
+                "file": "AI/neural networks/Fundamentals of Neural Networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "7e27465223d14cf2",
   "lastOpenFiles": [
+    "AI/neural networks/Fundamentals of Neural Networks.md",
+    "python/PyTorch/Deep Learning with Pytorch/ Deep Learning With PyTorch 12 - Activation Functions.md",
+    "python/PyTorch/Deep Learning with Pytorch/ Deep Learning With PyTorch 13 - Feed-Forward Neural net.md",
+    "python/PyTorch/Deep Learning with Pytorch/Deep Learning With PyTorch 7 - Linear Regression.md",
     "math/differential equations/MIT opencourseware/Unit 1/Basic DE's.md",
     "math/differential equations/MIT opencourseware/Unit 1/Conventions.md",
     "AI/machine learning/Principal Component Analysis.pdf",
     "math/stats/Covariance matrices.md",
     "math/linear algebra/Diagonalizing matrices.md",
-    "misc/To research.md",
-    "math/algebra/Untitled.md",
-    "math/algebra/Exercises - systems of linear equations word problems.pdf",
-    "math/algebra/linear equations worksheets.md",
-    "math/algebra/Exercises - linear equations, systems of linear equations - OneNote.pdf"
+    "misc/To research.md"
   ]
 }
