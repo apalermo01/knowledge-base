@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "math/linear algebra/Eigenvectors and Eigenvalues.md",
+            "file": "math/trigonometry/worksheet sources.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "math/linear algebra/Eigenvectors and Eigenvalues.md",
+                "file": "math/trigonometry/worksheet sources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "7e27465223d14cf2",
   "lastOpenFiles": [
-    "math/linear algebra/Eigenvectors and Eigenvalues.md",
-    "math/linear algebra/Diagonalizing matrices.md",
+    "math/trigonometry/worksheet sources.md",
+    "math/trigonometry/Notes - the unit circle.md",
+    "images/svgphp-radians-7-s0.svg.md",
+    "math/trigonometry/Notes - trig identities.md",
+    "math/trigonometry/images/radian.png",
+    "math/trigonometry/Notes - special right triangles.md",
+    "math/algebra/Notes - Solving Quadratic Equations.md",
     "AI/neural networks/Fundamentals of Neural Networks.md",
-    "python/PyTorch/Deep Learning with Pytorch/ Deep Learning With PyTorch 12 - Activation Functions.md",
-    "python/PyTorch/Deep Learning with Pytorch/ Deep Learning With PyTorch 13 - Feed-Forward Neural net.md",
-    "python/PyTorch/Deep Learning with Pytorch/Deep Learning With PyTorch 7 - Linear Regression.md",
-    "math/differential equations/MIT opencourseware/Unit 1/Basic DE's.md",
-    "math/differential equations/MIT opencourseware/Unit 1/Conventions.md",
-    "AI/machine learning/Principal Component Analysis.pdf",
-    "math/stats/Covariance matrices.md"
+    "cloud computing/cloud practitioner essentials/Introduction to Amazon Web Services.md",
+    "cloud computing/cloud practitioner essentials/Module 7 - Monitoring and Analytics.md"
   ]
 }
