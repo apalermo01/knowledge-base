@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "math/trigonometry/worksheet sources.md",
+            "file": "physics/Summary - types of forces.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "math/trigonometry/worksheet sources.md",
+                "file": "physics/Summary - types of forces.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "7e27465223d14cf2",
   "lastOpenFiles": [
-    "math/trigonometry/worksheet sources.md",
-    "math/trigonometry/Notes - the unit circle.md",
-    "images/svgphp-radians-7-s0.svg.md",
-    "math/trigonometry/Notes - trig identities.md",
-    "math/trigonometry/images/radian.png",
-    "math/trigonometry/Notes - special right triangles.md",
-    "math/algebra/Notes - Solving Quadratic Equations.md",
-    "AI/neural networks/Fundamentals of Neural Networks.md",
-    "cloud computing/cloud practitioner essentials/Introduction to Amazon Web Services.md",
-    "cloud computing/cloud practitioner essentials/Module 7 - Monitoring and Analytics.md"
+    "physics/Summary - types of forces.md",
+    "physics/Notes - circuits.pdf",
+    "physics/Summary - Types of energy.md",
+    "physics/Exercises - kinematics.pdf",
+    "physics/basic circuits - exercises.pdf",
+    "physics/basic circuits - notes.pdf",
+    "math/algebra/Exercises - properties of exponents.pdf",
+    "math/algebra/Exercises - simplifying rational expressions.pdf",
+    "math/stats/Covariance matrices.md",
+    "math/trigonometry/worksheet sources.md"
   ]
 }
