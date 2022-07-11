@@ -7,11 +7,9 @@
         "id": "7e27465223d14cf2",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "pdf",
           "state": {
-            "file": "physics/Summary - types of forces.md",
-            "mode": "source",
-            "source": false
+            "file": "physics/Exercises - circuits.pdf"
           }
         }
       }
@@ -69,7 +67,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "physics/Summary - types of forces.md",
+                "file": "physics/Exercises - circuits.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +87,7 @@
   },
   "active": "7e27465223d14cf2",
   "lastOpenFiles": [
+    "physics/Exercises - circuits.pdf",
     "physics/Summary - types of forces.md",
     "physics/Notes - circuits.pdf",
     "physics/Summary - Types of energy.md",
@@ -97,7 +96,6 @@
     "physics/basic circuits - notes.pdf",
     "math/algebra/Exercises - properties of exponents.pdf",
     "math/algebra/Exercises - simplifying rational expressions.pdf",
-    "math/stats/Covariance matrices.md",
-    "math/trigonometry/worksheet sources.md"
+    "math/stats/Covariance matrices.md"
   ]
 }
