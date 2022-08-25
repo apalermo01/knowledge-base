@@ -7,9 +7,11 @@
         "id": "7e27465223d14cf2",
         "type": "leaf",
         "state": {
-          "type": "pdf",
+          "type": "markdown",
           "state": {
-            "file": "physics/Exercises - circuits.pdf"
+            "file": "physics/Worksheet sources.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -67,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "physics/Exercises - circuits.pdf",
+                "file": "physics/Worksheet sources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,15 +89,15 @@
   },
   "active": "7e27465223d14cf2",
   "lastOpenFiles": [
-    "physics/Exercises - circuits.pdf",
-    "physics/Summary - types of forces.md",
-    "physics/Notes - circuits.pdf",
-    "physics/Summary - Types of energy.md",
     "physics/Exercises - kinematics.pdf",
-    "physics/basic circuits - exercises.pdf",
-    "physics/basic circuits - notes.pdf",
-    "math/algebra/Exercises - properties of exponents.pdf",
-    "math/algebra/Exercises - simplifying rational expressions.pdf",
-    "math/stats/Covariance matrices.md"
+    "physics/Exercises - mechanics (mixed topics).pdf",
+    "math/algebra/Exercises - solving quadratic equations by factoring 2.pdf",
+    "math/algebra/Exercises - solving quadratic equations by factoring 1.pdf",
+    "math/algebra/Exercises - factoring binomials.pdf",
+    "math/algebra/worksheet sources.md",
+    "math/algebra/Exercises - combining like terms.pdf",
+    "math/algebra/Exercises - linear equations - Kuta.pdf",
+    "math/algebra/Exercises - linear equations 2.pdf",
+    "math/algebra/Exercises - linear equations, systems of linear equations - OneNote.pdf"
   ]
 }

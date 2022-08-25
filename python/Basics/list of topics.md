@@ -1,0 +1,45 @@
+List of everything to cover in python
+
+- installing anaconda / setting up virtual environemnts and jupyter notebook
+- basic arithmetic
+	- +, -, \*, \*\*, /, //, %, +=, -=, \*=
+- floats vs. ints, floating point errors
+	- casting to floats and ints
+- exceptions + stack trace
+- variables
+- naming conventions for variables
+- strings, defining strings
+- multiline strings
+- string concatenation
+- string methods
+- input function
+- lists
+	- indexing lists
+	- list functions
+		- 
+	- list comprehensions
+- tuples
+- dictionaries
+	- dictionary comprehensions
+- built-in functions
+	- range
+	- len
+	- zip
+	- map
+	- max
+	- min
+	- enumerate
+- for loops
+	- continue statement
+- if statements
+- while loops
+	- break statement
+- functions
+	- keyword arguments
+	- positional arguments
+	- default arguemnts
+	- \*vars
+	- \*\*kwargs
+	- return statement
+- classes
+	- inheritance 
