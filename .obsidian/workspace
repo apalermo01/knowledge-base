@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "AI/neural networks/Fundamentals of Neural Networks.md",
+            "file": "physics/Worksheet sources.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI/neural networks/Fundamentals of Neural Networks.md",
+                "file": "physics/Worksheet sources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "7e27465223d14cf2",
   "lastOpenFiles": [
-    "AI/neural networks/Fundamentals of Neural Networks.md",
-    "python/PyTorch/Deep Learning with Pytorch/ Deep Learning With PyTorch 12 - Activation Functions.md",
-    "python/PyTorch/Deep Learning with Pytorch/ Deep Learning With PyTorch 13 - Feed-Forward Neural net.md",
-    "python/PyTorch/Deep Learning with Pytorch/Deep Learning With PyTorch 7 - Linear Regression.md",
-    "math/differential equations/MIT opencourseware/Unit 1/Basic DE's.md",
-    "math/differential equations/MIT opencourseware/Unit 1/Conventions.md",
-    "AI/machine learning/Principal Component Analysis.pdf",
-    "math/stats/Covariance matrices.md",
-    "math/linear algebra/Diagonalizing matrices.md",
-    "misc/To research.md"
+    "physics/Exercises - kinematics.pdf",
+    "physics/Exercises - mechanics (mixed topics).pdf",
+    "math/algebra/Exercises - solving quadratic equations by factoring 2.pdf",
+    "math/algebra/Exercises - solving quadratic equations by factoring 1.pdf",
+    "math/algebra/Exercises - factoring binomials.pdf",
+    "math/algebra/worksheet sources.md",
+    "math/algebra/Exercises - combining like terms.pdf",
+    "math/algebra/Exercises - linear equations - Kuta.pdf",
+    "math/algebra/Exercises - linear equations 2.pdf",
+    "math/algebra/Exercises - linear equations, systems of linear equations - OneNote.pdf"
   ]
 }
