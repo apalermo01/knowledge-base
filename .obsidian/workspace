@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "physics/Worksheet sources.md",
+            "file": "math/calculus 1/Notes - limit laws.md",
             "mode": "source",
             "source": false
           }
@@ -53,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 646
+    "width": 604.5
   },
   "right": {
     "id": "55a20cd6ff21553e",
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "physics/Worksheet sources.md",
+                "file": "math/calculus 1/Notes - limit laws.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "7e27465223d14cf2",
   "lastOpenFiles": [
-    "physics/Exercises - kinematics.pdf",
-    "physics/Exercises - mechanics (mixed topics).pdf",
-    "math/algebra/Exercises - solving quadratic equations by factoring 2.pdf",
-    "math/algebra/Exercises - solving quadratic equations by factoring 1.pdf",
-    "math/algebra/Exercises - factoring binomials.pdf",
+    "math/algebra/Notes - types of asymptotes (rational functions).pdf",
+    "math/algebra/images/output_2_0.png",
+    "math/calculus 1/meta.md",
+    "math/calculus 1/Exercises - finding limits 2.pdf",
+    "math/calculus 1/Worksheet sources.md",
+    "math/calculus 1/Exercises - finding limits.pdf",
     "math/algebra/worksheet sources.md",
-    "math/algebra/Exercises - combining like terms.pdf",
-    "math/algebra/Exercises - linear equations - Kuta.pdf",
-    "math/algebra/Exercises - linear equations 2.pdf",
-    "math/algebra/Exercises - linear equations, systems of linear equations - OneNote.pdf"
+    "physics/physics 1/Summary - key ideas in sound.md",
+    "physics/physics 1/Summary - key ideas in fluid dynamics (introductory physics).md",
+    "physics/physics 1/Exercises - uniform circular motion.pdf"
   ]
 }

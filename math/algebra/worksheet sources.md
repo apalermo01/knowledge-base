@@ -17,3 +17,5 @@
 "Exercises - solving quadratic equations by factoring 2": https://www.lavc.edu/math/library/math113_114_115/Worksheets/quadeqnsfact.pdf
 
 "Exercises - factoring binomials" - https://www.wappingersschools.org/cms/lib01/NY01001463/Centricity/Domain/816/skills%20practice%203.pdf
+
+"Exercises - finding asymptotes of rational functions" - https://www.chino.k12.ca.us/site/handlers/filedownload.ashx?moduleinstanceid=5435&dataid=2417&FileName=UNIT%204%20WORKSHEET%2012%20RATIONAL%20ASYMPTOTES.pdf
