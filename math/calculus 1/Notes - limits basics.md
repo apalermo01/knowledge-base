@@ -3,6 +3,7 @@
 
 **A limit describes the behavior of a function AROUND a point, as opposed to what the function does AT the point**
 
+**Another definition: as $x$ gets closer to $a$, $f(x)$ gets closer and stays close to $L$ 
 
 For example, what happens to the function $f(x) = x^2$ around the point $x=2$?
 

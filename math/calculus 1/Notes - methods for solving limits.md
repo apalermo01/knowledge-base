@@ -13,3 +13,7 @@ In many problems, direct substitution may result in an indeterminate expression 
 - Factorize the numerator and denominator, see if offending terms get cancelled out
 - Rationalize denominator
 - Convert expression into a form that contains a sub-expression which we already know the limit of
+
+
+## absolute value
+convert to piecewise function
