@@ -68,5 +68,7 @@ For flat surfaces, you would frequently set normal force to have the same magnit
 
 For inclinded surfaces, normal force could also involve the angle of the incline ($N = mg \cos (\theta)$ or $N = mg \sin (\theta)$, depending on the geometry of the problem)
 
+Normal force is ALWAYS perpendicular to the surface
+
 ## Tension
-Force that is exerted in ropes, cables, etc. This is usually found from a free body diagram and solving for T based on the equations for net force. 
+Force that can be exerted by ropes, cables, chains, etc. (generally anything that can be pulled taught). You will normally find the tension at the end of a rope- when this is the case the tension always points towards the center of the rope. The tension at the other end of the same rope will have EQUAL MAGNITUDE but OPPOSITE DIRECTION

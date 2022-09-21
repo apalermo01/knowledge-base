@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "python/PyTorch/Pytorch tutorials/Training a classifier.md",
+            "file": "physics/physics 1/Summary - types of forces (mechanics).md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "python/PyTorch/Pytorch tutorials/Training a classifier.md",
+                "file": "physics/physics 1/Summary - types of forces (mechanics).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "7e27465223d14cf2",
   "lastOpenFiles": [
-    "python/PyTorch/Intro to TorchScript.md",
-    "python/PyTorch/Profiling your PyTorch model.md",
+    "physics/physics 2/Exercises - circuits.pdf",
+    "physics/physics 2/Notes - Circuits.md",
+    "physics/physics 2/Notes - circuits.pdf",
+    "physics/physics 2/images/Pasted image 20220921154416.png",
+    "physics/physics 1/Summary - types of forces (mechanics).md",
     "physics/physics 1/Summary - kinematics.md",
-    "physics/physics 1/Exercises - kinematics.pdf",
     "physics/physics 1/Exercises - mechanics (mixed topics).pdf",
-    "physics/physics 1/Exercises - kinematics 2.pdf",
-    "math/algebra/Exercises - solving quadratic equations by factoring 2.pdf",
-    "math/calculus 1/Notes - limit laws and theorems.md",
-    "math/calculus 1/Notes - limits basics.md",
-    "math/calculus 1/Notes - methods for solving limits.md"
+    "math/Exercises - finding limits 3 (includes discontinuities, one-sided limits, and infinite limits).md",
+    "physics/physics 2/Notes - 4 equations for electrostatics.pdf",
+    "physics/physics 2/Exercises - electric fields of continuous charge distributions.pdf"
   ]
 }
