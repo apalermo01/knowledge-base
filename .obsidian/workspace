@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "physics/physics 1/Summary - types of forces (mechanics).md",
+            "file": "physics/physics 2/Notes - Circuits.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "physics/physics 1/Summary - types of forces (mechanics).md",
+                "file": "physics/physics 2/Notes - Circuits.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "7e27465223d14cf2",
   "lastOpenFiles": [
-    "physics/physics 2/Exercises - circuits.pdf",
+    "physics/physics 1/Exercises - uniform circular motion.pdf",
+    "AI/computer vision/2022-01-04 -  Szeliski 2.1.1-2.1.pdf",
+    "AI/computer vision/2022-01-01 Szeliski 2.1.pdf",
     "physics/physics 2/Notes - Circuits.md",
+    "physics/physics 2/Exercises - circuits.pdf",
+    "physics/physics 1/Examples - Free body diagrams.pdf",
+    "physics/physics 1/Summary - types of forces (mechanics).md",
     "physics/physics 2/Notes - circuits.pdf",
     "physics/physics 2/images/Pasted image 20220921154416.png",
-    "physics/physics 1/Summary - types of forces (mechanics).md",
-    "physics/physics 1/Summary - kinematics.md",
-    "physics/physics 1/Exercises - mechanics (mixed topics).pdf",
-    "math/Exercises - finding limits 3 (includes discontinuities, one-sided limits, and infinite limits).md",
-    "physics/physics 2/Notes - 4 equations for electrostatics.pdf",
-    "physics/physics 2/Exercises - electric fields of continuous charge distributions.pdf"
+    "physics/physics 1/Summary - kinematics.md"
   ]
 }
