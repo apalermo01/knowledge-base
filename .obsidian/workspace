@@ -7,9 +7,11 @@
         "id": "7e27465223d14cf2",
         "type": "leaf",
         "state": {
-          "type": "pdf",
+          "type": "markdown",
           "state": {
-            "file": "physics/physics 2/Notes - Electromotive force (nonideal batteries).pdf"
+            "file": "physics/physics 2/Notes - Kirchoff's rules.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -67,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "physics/physics 2/Notes - Electromotive force (nonideal batteries).pdf",
+                "file": "physics/physics 2/Notes - Kirchoff's rules.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,15 +89,15 @@
   },
   "active": "7e27465223d14cf2",
   "lastOpenFiles": [
-    "physics/physics 2/Notes - circuits.md",
-    "physics/physics 2/Notes - Electromotive force (nonideal batteries).pdf",
-    "physics/physics 2/Notes - Electromotive force (nonideal batteries).md",
-    "physics/physics 2/Notes - RC circuits.md",
-    "physics/physics 2/Exercises - circuits.pdf",
+    "physics/physics 2/Notes - circuits.pdf",
     "physics/physics 2/Notes - 4 equations for electrostatics.pdf",
+    "physics/physics 2/Notes - Kirchoff's rules.md",
+    "physics/physics 2/Notes - Electromotive force (nonideal batteries).pdf",
+    "physics/physics 2/Notes - circuits.md",
+    "physics/physics 2/Notes - Electromotive force (nonideal batteries).md",
+    "physics/physics 2/Exercises - circuits.pdf",
     "physics/physics 2/Exercises - electric fields of continuous charge distributions.pdf",
     "physics/physics 2/Worksheet sources.md",
-    "physics/physics 2/Notes - circuits.pdf",
     "physics/physics 1/Exercises - uniform circular motion.pdf"
   ]
 }
