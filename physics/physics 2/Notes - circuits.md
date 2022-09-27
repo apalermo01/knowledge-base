@@ -63,6 +63,7 @@ $$
 P = IV = \frac{V^2}{R} = I^2 R
 $$
 **Voltage, current, resistance, and capacitance in series vs. parallel**
+
 | Series | parallel |
 | --------- | -------- |
 | $V_{\text{tot}} = V_1 + V_2 + ...$ | $V_{\text{tot}} = V_1 = V_2 = ...$ |
@@ -86,6 +87,7 @@ this equation is similar in structure to the formulas for kinetic energy ($\frac
 
 
 **Charging and discharging capacitors**
+
 | value | charging   |     discharging |
 | --- | --- |
 | time constant ($\tau$ (tau)) | $\tau_c = R_C \times C$ | $\tau_D = R_D \times C$ |
