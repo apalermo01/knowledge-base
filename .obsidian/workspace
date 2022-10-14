@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "physics/physics 2/Notes - magnetism.md",
+            "file": "cloud computing/cloud practitioner essentials/Compute in the cloud.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "docker",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -49,11 +49,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 604.5
+    "width": 343.5,
+    "collapsed": true
   },
   "right": {
     "id": "55a20cd6ff21553e",
@@ -69,7 +71,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "physics/physics 2/Notes - magnetism.md",
+                "file": "cloud computing/cloud practitioner essentials/Compute in the cloud.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +91,15 @@
   },
   "active": "b5da2b43f183ab9f",
   "lastOpenFiles": [
+    "physics/physics 1/Exercises - uniform circular motion.pdf",
+    "physics/physics 1/Exercises - velocity vs time graphs.pdf",
     "physics/physics 2/Notes - 4 equations for electrostatics.pdf",
     "physics/physics 2/Notes - circuits.pdf",
+    "physics/physics 2/Notes - Electromotive force (nonideal batteries).pdf",
     "physics/physics 2/Notes - magnetism.md",
     "physics/physics 2/Notes - circuits.md",
     "physics/physics 2/Exercises - circuits.pdf",
     "physics/physics 2/Notes - Kirchoff's rules.md",
-    "physics/other topics/Notes - radioactive decay.md",
-    "physics/physics 2/Notes - Electromotive force (nonideal batteries).pdf",
-    "physics/physics 2/Notes - Electromotive force (nonideal batteries).md",
-    "physics/physics 2/Exercises - electric fields of continuous charge distributions.pdf"
+    "physics/other topics/Notes - radioactive decay.md"
   ]
 }
