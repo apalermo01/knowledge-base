@@ -57,5 +57,9 @@ P(y\vert x1, \dots, x_n) \propto P(y) \prod_{i=1}^n P(x_i\vert y)
 $$
 and we want to select the value (class) of $y$ that maximizes this probability 
 
+- fast / easy to implement
+- requires that the predictors are independent
+- requires continuous features to be normalized
 
- See the dedicated note on Naive Bayes in this folder for more info. 
+
+See the dedicated note on Naive Bayes in this folder for more info. 
