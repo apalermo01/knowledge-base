@@ -1,4 +1,3 @@
-#  Deep Learning With PyTorch 13 - Feed-Forward Neural Net
 
 Implement multi-layer neural network with MNIST
 
