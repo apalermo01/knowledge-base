@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "math/stats/One-way ANOVA.md",
+                "file": "math/stats/Generalized Linear Models.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0cb093bc24b183f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "math/stats/Probability distributions.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -61,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 343.5
+    "width": 343.5,
+    "collapsed": true
   },
   "right": {
     "id": "55a20cd6ff21553e",
@@ -77,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "math/stats/One-way ANOVA.md",
+                "file": "math/stats/Probability distributions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,17 +109,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b5da2b43f183ab9f",
+  "active": "0cb093bc24b183f0",
   "lastOpenFiles": [
+    "math/stats/Generalized Linear Models.md",
+    "math/stats/Covariance matrices.md",
+    "math/stats/Poisson Regression.md",
+    "math/stats/One-way ANOVA.md",
     "cloud computing/cloud practitioner essentials/Compute in the cloud.md",
     "physics/physics 1/Exercises - uniform circular motion.pdf",
     "physics/physics 1/Exercises - velocity vs time graphs.pdf",
     "physics/physics 2/Notes - 4 equations for electrostatics.pdf",
     "physics/physics 2/Notes - circuits.pdf",
-    "physics/physics 2/Notes - Electromotive force (nonideal batteries).pdf",
-    "physics/physics 2/Notes - magnetism.md",
-    "physics/physics 2/Notes - circuits.md",
-    "physics/physics 2/Exercises - circuits.pdf",
-    "physics/physics 2/Notes - Kirchoff's rules.md"
+    "physics/physics 2/Notes - Electromotive force (nonideal batteries).pdf"
   ]
 }
