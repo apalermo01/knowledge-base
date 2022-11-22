@@ -1,0 +1,111 @@
+{
+  "main": {
+    "id": "d12e3c7cc6a9512d",
+    "type": "split",
+    "children": [
+      {
+        "id": "3099095bf444bdcb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b5da2b43f183ab9f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "math/stats/One-way ANOVA.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "82f24eb0b70a3e04",
+    "type": "split",
+    "children": [
+      {
+        "id": "5da83904c6345aea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1f43de2a15f509a5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3d745b9f354c48a0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 343.5
+  },
+  "right": {
+    "id": "55a20cd6ff21553e",
+    "type": "split",
+    "children": [
+      {
+        "id": "900c1c7495e43892",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "51d2c5b189be7ce1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "math/stats/One-way ANOVA.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "b5da2b43f183ab9f",
+  "lastOpenFiles": [
+    "cloud computing/cloud practitioner essentials/Compute in the cloud.md",
+    "physics/physics 1/Exercises - uniform circular motion.pdf",
+    "physics/physics 1/Exercises - velocity vs time graphs.pdf",
+    "physics/physics 2/Notes - 4 equations for electrostatics.pdf",
+    "physics/physics 2/Notes - circuits.pdf",
+    "physics/physics 2/Notes - Electromotive force (nonideal batteries).pdf",
+    "physics/physics 2/Notes - magnetism.md",
+    "physics/physics 2/Notes - circuits.md",
+    "physics/physics 2/Exercises - circuits.pdf",
+    "physics/physics 2/Notes - Kirchoff's rules.md"
+  ]
+}
