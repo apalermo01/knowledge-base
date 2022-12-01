@@ -1,5 +1,26 @@
 # Key ideas in fluid dynamics
 
+## Quantities / terms
+
+- fluid - anything that flows (generally refers to liquids / gasses)
+- pressure - fluids exert a force on their containers as molecules collide with the boundaries. Refers to force per unit area (F/A)
+	- hydrostatic pressure - pressure associated with fluids. increases with depth
+	- thermal pressure - pressure from gasses - primarily due to random collisions with the container as a result of the gas' temperature. Constant in a container. 
+	- Note: the formula for pressure is $P = \frac{F}{A}$ - the force refers to the component of force that is perpendicular to A
+	- Unit: $1 \text{pascal} = 1 \text{Pa} \equiv 1 \text{N}/\text{m}^2$ 
+	- If an object is submerged in a fluid - the fluid will exert an equal force in all directions
+- density - measure of mass per unit volume ($\rho = m/V$)
+	- units are $\text{kg}/\text{m}^3$, $\text{g}/\text{cm}^3$ is  widly used too. Conversion: $1 \text{g}/\text{cm}^3 = 1000 \text{kg}/\text{m}^ 3$
+	- 
+- buoyancy
+- ideal fluid
+
+## Hydrostatic pressure
+$$
+p = p_0 + \rho g d 
+$$
+Describes the pressure in a liquid at depth $d$, where $p_0$ is the pressure at the surface (1atm if at sea level) and $\rho$ is the density of the liquid. 
+
 ## Archimedes principle
 
 Bouyant force = weight of displaced fluid

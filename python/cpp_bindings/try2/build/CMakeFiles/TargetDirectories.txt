@@ -1,0 +1,5 @@
+/home/alex/Documents/knowledge-base/python/cpp_bindings/try2/build/CMakeFiles/rebuild_cache.dir
+/home/alex/Documents/knowledge-base/python/cpp_bindings/try2/build/CMakeFiles/edit_cache.dir
+/home/alex/Documents/knowledge-base/python/cpp_bindings/try2/build/CMakeFiles/module_name.dir
+/home/alex/Documents/knowledge-base/python/cpp_bindings/try2/build/pybind11/CMakeFiles/rebuild_cache.dir
+/home/alex/Documents/knowledge-base/python/cpp_bindings/try2/build/pybind11/CMakeFiles/edit_cache.dir

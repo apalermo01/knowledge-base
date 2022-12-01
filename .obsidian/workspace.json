@@ -1,0 +1,148 @@
+{
+  "main": {
+    "id": "d12e3c7cc6a9512d",
+    "type": "split",
+    "children": [
+      {
+        "id": "3099095bf444bdcb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b5da2b43f183ab9f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "math/stats/Generalized Linear Models.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0cb093bc24b183f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "math/calculus 3/Notes - volumes of common geometries.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7e706fb8b2eb339c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "physics/physics 2/Notes - AC Circuits.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c275d67650137f21",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "physics/physics 1/Summary - key ideas in fluid dynamics (introductory physics).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "82f24eb0b70a3e04",
+    "type": "split",
+    "children": [
+      {
+        "id": "5da83904c6345aea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1f43de2a15f509a5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3d745b9f354c48a0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 343.5
+  },
+  "right": {
+    "id": "55a20cd6ff21553e",
+    "type": "split",
+    "children": [
+      {
+        "id": "900c1c7495e43892",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "51d2c5b189be7ce1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "physics/physics 1/Summary - key ideas in fluid dynamics (introductory physics).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "c275d67650137f21",
+  "lastOpenFiles": [
+    "AI/machine learning/Naive Bayes.pdf",
+    "math/stats/Probability distributions.md",
+    "math/stats/One-way ANOVA.md",
+    "AI/machine learning/SMOTE.md",
+    "math/stats/Generalized Linear Models.md",
+    "math/calculus 3/Notes - volumes of common geometries.md",
+    "physics/physics 2/Notes - Electromotive force (nonideal batteries).pdf",
+    "physics/physics 2/Notes - circuits.pdf",
+    "math/calculus 3/images/Pasted image 20221114110542.png",
+    "math/stats/Covariance matrices.md"
+  ]
+}
