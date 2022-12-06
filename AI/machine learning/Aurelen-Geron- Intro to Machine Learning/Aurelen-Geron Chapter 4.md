@@ -53,7 +53,7 @@ plt.scatter(X, y)
 
 
     
-![png](Aurelen-Geron%20Chapter%204_files/Aurelen-Geron%20Chapter%204_2_1.png)
+![png](Aurelen-Geron%20Chapter%204_2_1.png)
     
 
 
@@ -113,7 +113,7 @@ plt.plot(X, y, "b.")
 
 
     
-![png](Aurelen-Geron%20Chapter%204_files/Aurelen-Geron%20Chapter%204_8_1.png)
+![png](Aurelen-Geron%20Chapter%204_8_1.png)
     
 
 

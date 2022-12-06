@@ -316,7 +316,7 @@ bargraph.CI(x.factor=year,           # grouping variable
 
 
     
-![png](Learning%20Statistics%20with%20R%20chapter%2010_files/Learning%20Statistics%20with%20R%20chapter%2010_30_0.png)
+![png](Learning%20Statistics%20with%20R%20chapter%2010_30_0.png)
     
 
 
@@ -333,7 +333,7 @@ lineplot.CI(x.factor=year,           # grouping variable
 
 
     
-![png](Learning%20Statistics%20with%20R%20chapter%2010_files/Learning%20Statistics%20with%20R%20chapter%2010_31_0.png)
+![png](Learning%20Statistics%20with%20R%20chapter%2010_31_0.png)
     
 
 
@@ -346,6 +346,6 @@ plotmeans(formula = attendance ~ year,
 
 
     
-![png](Learning%20Statistics%20with%20R%20chapter%2010_files/Learning%20Statistics%20with%20R%20chapter%2010_32_0.png)
+![png](Learning%20Statistics%20with%20R%20chapter%2010_32_0.png)
     
 

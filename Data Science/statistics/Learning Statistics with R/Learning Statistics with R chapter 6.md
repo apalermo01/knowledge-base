@@ -20,7 +20,7 @@ plot(Fibonacci)
 
 
     
-![png](Learning%20Statistics%20with%20R%20chapter%206_files/Learning%20Statistics%20with%20R%20chapter%206_3_0.png)
+![png](Learning%20Statistics%20with%20R%20chapter%206_3_0.png)
     
 
 
@@ -48,7 +48,7 @@ plot(Fibonacci,
 
 
     
-![png](Learning%20Statistics%20with%20R%20chapter%206_files/Learning%20Statistics%20with%20R%20chapter%206_6_0.png)
+![png](Learning%20Statistics%20with%20R%20chapter%206_6_0.png)
     
 
 
@@ -100,7 +100,7 @@ plot(Fibonacci,
 
 
     
-![png](Learning%20Statistics%20with%20R%20chapter%206_files/Learning%20Statistics%20with%20R%20chapter%206_8_0.png)
+![png](Learning%20Statistics%20with%20R%20chapter%206_8_0.png)
     
 
 
@@ -146,7 +146,7 @@ plot(Fibonacci,
 
 
     
-![png](Learning%20Statistics%20with%20R%20chapter%206_files/Learning%20Statistics%20with%20R%20chapter%206_12_0.png)
+![png](Learning%20Statistics%20with%20R%20chapter%206_12_0.png)
     
 
 
@@ -173,7 +173,7 @@ hist(afl.margins, cex=0.2)
 
 
     
-![png](Learning%20Statistics%20with%20R%20chapter%206_files/Learning%20Statistics%20with%20R%20chapter%206_15_0.png)
+![png](Learning%20Statistics%20with%20R%20chapter%206_15_0.png)
     
 
 
@@ -184,7 +184,7 @@ hist(afl.margins, breaks=3)
 
 
     
-![png](Learning%20Statistics%20with%20R%20chapter%206_files/Learning%20Statistics%20with%20R%20chapter%206_16_0.png)
+![png](Learning%20Statistics%20with%20R%20chapter%206_16_0.png)
     
 
 
@@ -195,7 +195,7 @@ hist(afl.margins, breaks=0:116)
 
 
     
-![png](Learning%20Statistics%20with%20R%20chapter%206_files/Learning%20Statistics%20with%20R%20chapter%206_17_0.png)
+![png](Learning%20Statistics%20with%20R%20chapter%206_17_0.png)
     
 
 
@@ -233,7 +233,7 @@ boxplot(afl.margins)
 
 
     
-![png](Learning%20Statistics%20with%20R%20chapter%206_files/Learning%20Statistics%20with%20R%20chapter%206_21_0.png)
+![png](Learning%20Statistics%20with%20R%20chapter%206_21_0.png)
     
 
 
@@ -250,7 +250,7 @@ boxplot(afl.margins,
 
 
     
-![png](Learning%20Statistics%20with%20R%20chapter%206_files/Learning%20Statistics%20with%20R%20chapter%206_22_0.png)
+![png](Learning%20Statistics%20with%20R%20chapter%206_22_0.png)
     
 
 
@@ -299,7 +299,7 @@ boxplot(formula=margin~year, data=afl2)
 
 
     
-![png](Learning%20Statistics%20with%20R%20chapter%206_files/Learning%20Statistics%20with%20R%20chapter%206_26_0.png)
+![png](Learning%20Statistics%20with%20R%20chapter%206_26_0.png)
     
 
 
@@ -328,7 +328,7 @@ boxplot(formula = margin ~ year,
 
 
     
-![png](Learning%20Statistics%20with%20R%20chapter%206_files/Learning%20Statistics%20with%20R%20chapter%206_27_0.png)
+![png](Learning%20Statistics%20with%20R%20chapter%206_27_0.png)
     
 
 
@@ -346,7 +346,7 @@ plot(x=parenthood$dan.sleep, y=parenthood$dan.grump)
 
 
     
-![png](Learning%20Statistics%20with%20R%20chapter%206_files/Learning%20Statistics%20with%20R%20chapter%206_30_0.png)
+![png](Learning%20Statistics%20with%20R%20chapter%206_30_0.png)
     
 
 
@@ -365,7 +365,7 @@ plot(x=parenthood$dan.sleep,
 
 
     
-![png](Learning%20Statistics%20with%20R%20chapter%206_files/Learning%20Statistics%20with%20R%20chapter%206_31_0.png)
+![png](Learning%20Statistics%20with%20R%20chapter%206_31_0.png)
     
 
 
@@ -378,7 +378,7 @@ pairs(formula = ~ dan.sleep + baby.sleep + dan.grump, data=parenthood)
 
 
     
-![png](Learning%20Statistics%20with%20R%20chapter%206_files/Learning%20Statistics%20with%20R%20chapter%206_33_0.png)
+![png](Learning%20Statistics%20with%20R%20chapter%206_33_0.png)
     
 
 
@@ -389,7 +389,7 @@ pairs(parenthood)
 
 
     
-![png](Learning%20Statistics%20with%20R%20chapter%206_files/Learning%20Statistics%20with%20R%20chapter%206_34_0.png)
+![png](Learning%20Statistics%20with%20R%20chapter%206_34_0.png)
     
 
 
@@ -424,7 +424,7 @@ barplot(freq)
 
 
     
-![png](Learning%20Statistics%20with%20R%20chapter%206_files/Learning%20Statistics%20with%20R%20chapter%206_38_0.png)
+![png](Learning%20Statistics%20with%20R%20chapter%206_38_0.png)
     
 
 
@@ -435,7 +435,7 @@ barplot(height=freq, names.arg=teams)
 
 
     
-![png](Learning%20Statistics%20with%20R%20chapter%206_files/Learning%20Statistics%20with%20R%20chapter%206_39_0.png)
+![png](Learning%20Statistics%20with%20R%20chapter%206_39_0.png)
     
 
 
@@ -446,7 +446,7 @@ barplot(height=freq, names.arg=teams, las=2)
 
 
     
-![png](Learning%20Statistics%20with%20R%20chapter%206_files/Learning%20Statistics%20with%20R%20chapter%206_40_0.png)
+![png](Learning%20Statistics%20with%20R%20chapter%206_40_0.png)
     
 
 
@@ -473,7 +473,7 @@ barplot(height=freq,
 
 
     
-![png](Learning%20Statistics%20with%20R%20chapter%206_files/Learning%20Statistics%20with%20R%20chapter%206_43_0.png)
+![png](Learning%20Statistics%20with%20R%20chapter%206_43_0.png)
     
 
 

@@ -262,7 +262,7 @@ hist(normal.a)
 
 
     
-![png](Learning%20statistics%20with%20R%20chapter%209_files/Learning%20statistics%20with%20R%20chapter%209_15_0.png)
+![png](Learning%20statistics%20with%20R%20chapter%209_15_0.png)
     
 
 
@@ -279,7 +279,7 @@ hist(chi.sq.3)
 
 
     
-![png](Learning%20statistics%20with%20R%20chapter%209_files/Learning%20statistics%20with%20R%20chapter%209_17_0.png)
+![png](Learning%20statistics%20with%20R%20chapter%209_17_0.png)
     
 
 
@@ -301,7 +301,7 @@ hist(t.3)
 
 
     
-![png](Learning%20statistics%20with%20R%20chapter%209_files/Learning%20statistics%20with%20R%20chapter%209_21_0.png)
+![png](Learning%20statistics%20with%20R%20chapter%209_21_0.png)
     
 
 
@@ -317,6 +317,6 @@ hist(F.3.20)
 
 
     
-![png](Learning%20statistics%20with%20R%20chapter%209_files/Learning%20statistics%20with%20R%20chapter%209_23_0.png)
+![png](Learning%20statistics%20with%20R%20chapter%209_23_0.png)
     
 

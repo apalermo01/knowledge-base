@@ -402,7 +402,7 @@ plt.show()
 
 
     
-![png](Aurelen-Geron%20Chapter%202_files/Aurelen-Geron%20Chapter%202_13_0.png)
+![png](Aurelen-Geron%20Chapter%202_13_0.png)
     
 
 
@@ -557,7 +557,7 @@ housing["income_cat"].hist()
 
 
     
-![png](Aurelen-Geron%20Chapter%202_files/Aurelen-Geron%20Chapter%202_29_1.png)
+![png](Aurelen-Geron%20Chapter%202_29_1.png)
     
 
 
@@ -604,7 +604,7 @@ strat_test_set["income_cat"].hist()
 
 
     
-![png](Aurelen-Geron%20Chapter%202_files/Aurelen-Geron%20Chapter%202_33_1.png)
+![png](Aurelen-Geron%20Chapter%202_33_1.png)
     
 
 
@@ -643,7 +643,7 @@ housing.plot(kind="scatter", x="longitude", y="latitude")
 
 
     
-![png](Aurelen-Geron%20Chapter%202_files/Aurelen-Geron%20Chapter%202_40_1.png)
+![png](Aurelen-Geron%20Chapter%202_40_1.png)
     
 
 
@@ -661,7 +661,7 @@ housing.plot(kind="scatter", x="longitude", y="latitude", alpha=0.1)
 
 
     
-![png](Aurelen-Geron%20Chapter%202_files/Aurelen-Geron%20Chapter%202_41_1.png)
+![png](Aurelen-Geron%20Chapter%202_41_1.png)
     
 
 
@@ -684,7 +684,7 @@ plt.legend()
 
 
     
-![png](Aurelen-Geron%20Chapter%202_files/Aurelen-Geron%20Chapter%202_43_1.png)
+![png](Aurelen-Geron%20Chapter%202_43_1.png)
     
 
 
@@ -969,7 +969,7 @@ scatter_matrix(housing)
 
 
     
-![png](Aurelen-Geron%20Chapter%202_files/Aurelen-Geron%20Chapter%202_50_1.png)
+![png](Aurelen-Geron%20Chapter%202_50_1.png)
     
 
 
@@ -1006,7 +1006,7 @@ scatter_matrix(housing[attributes], figsize=(12, 8))
 
 
     
-![png](Aurelen-Geron%20Chapter%202_files/Aurelen-Geron%20Chapter%202_52_1.png)
+![png](Aurelen-Geron%20Chapter%202_52_1.png)
     
 
 
@@ -1028,7 +1028,7 @@ housing.plot(kind="scatter", x="median_income", y="median_house_value", alpha=0.
 
 
     
-![png](Aurelen-Geron%20Chapter%202_files/Aurelen-Geron%20Chapter%202_54_1.png)
+![png](Aurelen-Geron%20Chapter%202_54_1.png)
     
 
 
@@ -1124,7 +1124,7 @@ scatter_matrix(housing[attributes], figsize=(15, 12))
 
 
     
-![png](Aurelen-Geron%20Chapter%202_files/Aurelen-Geron%20Chapter%202_59_1.png)
+![png](Aurelen-Geron%20Chapter%202_59_1.png)
     
 
 
