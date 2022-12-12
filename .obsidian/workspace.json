@@ -4,107 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "3099095bf444bdcb",
+        "id": "51b7dbff4e55aca6",
         "type": "tabs",
         "children": [
           {
-            "id": "b5da2b43f183ab9f",
+            "id": "761815520450caaa",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Data Science/statistics/linear models/Generalized Linear Models.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0cb093bc24b183f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "math/calculus 3/Notes - volumes of common geometries.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7e706fb8b2eb339c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "physics/physics 2/Notes - AC Circuits.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c275d67650137f21",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Science/statistics/math/Covariance matrices.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "226e13a681f7673e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Science/statistics/Estimating parameters of a population.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "04ac803c09fcdc6a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Science/statistics/Confidence intervals.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "861d1b24e2c12cef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI/machine learning/Naive Bayes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0200bb064b9aff34",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Science/model evaluation/Classification metrics.md",
-                "mode": "source",
-                "source": false
+                "file": "math/algebra/Notes - types of asymptotes (rational functions).pdf"
               }
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -146,8 +59,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 343.5,
-    "collapsed": true
+    "width": 343.5
   },
   "right": {
     "id": "55a20cd6ff21553e",
@@ -163,7 +75,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/model evaluation/Classification metrics.md",
+                "file": "math/algebra/Notes - types of asymptotes (rational functions).pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,17 +93,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "0200bb064b9aff34",
+  "active": "761815520450caaa",
   "lastOpenFiles": [
-    "AI/machine learning/Naive Bayes.md",
-    "AI/machine learning/Summary of Machine Learning Models.md",
-    "cloud computing/aws/cloud practitioner essentials/Module 6- Security.md",
-    "cloud computing/aws/cloud practitioner essentials/Global infastructure and reliability.md",
-    "cloud computing/aws/Introduction to Amazon SageMaker.md",
-    "AI/computer vision/2022-01-01 Szeliski 2.1.pdf",
-    "AI/machine learning/SMOTE.md",
-    "Data Science/statistics/Hypothesis testing.md",
-    "Data Science/statistics/Confidence intervals.md",
-    "Data Science/statistics/Probability distributions.md"
+    "math/calculus 1/Notes - limits basics.md",
+    "math/calculus 1/Notes - limit laws and theorems.md",
+    "math/algebra/Notes - Solving Quadratic Equations.md",
+    "math/algebra/Notes - properties of exponents.md",
+    "math/calculus 1/meta.md",
+    "math/calculus 1/Exercises - finding limits.pdf",
+    "data science/statistics/math/Covariance matrices.md",
+    "math/linear algebra/Eigenvectors and Eigenvalues.md",
+    "misc/Docker notes.md",
+    "tools/Docker.md"
   ]
 }
