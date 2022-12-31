@@ -121,7 +121,7 @@ plotmeans(formula=mood.gain~drug, # plot mood gain by drug
 
 
     
-![png](Learning%20Statistics%20with%20R%20chapter%2014_files/Learning%20Statistics%20with%20R%20chapter%2014_8_1.png)
+![png](Learning%20Statistics%20with%20R%20chapter%2014_8_1.png)
     
 
 
@@ -698,7 +698,7 @@ shapiro.test(my.anova.residuals)
 
 
     
-![png](Learning%20Statistics%20with%20R%20chapter%2014_files/Learning%20Statistics%20with%20R%20chapter%2014_60_0.png)
+![png](Learning%20Statistics%20with%20R%20chapter%2014_60_0.png)
     
 
 
@@ -713,7 +713,7 @@ shapiro.test(my.anova.residuals)
 
 
     
-![png](Learning%20Statistics%20with%20R%20chapter%2014_files/Learning%20Statistics%20with%20R%20chapter%2014_60_2.png)
+![png](Learning%20Statistics%20with%20R%20chapter%2014_60_2.png)
     
 
 

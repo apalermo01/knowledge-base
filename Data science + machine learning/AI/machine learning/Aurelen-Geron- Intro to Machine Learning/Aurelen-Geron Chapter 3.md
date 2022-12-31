@@ -249,7 +249,7 @@ plt.show()
 
 
     
-![png](Aurelen-Geron%20Chapter%203_files/Aurelen-Geron%20Chapter%203_8_0.png)
+![png](Aurelen-Geron%20Chapter%203_8_0.png)
     
 
 
@@ -583,7 +583,7 @@ plot_precision_recall_vs_threshold(precisions, recalls, thresholds)
 
 
     
-![png](Aurelen-Geron%20Chapter%203_files/Aurelen-Geron%20Chapter%203_43_0.png)
+![png](Aurelen-Geron%20Chapter%203_43_0.png)
     
 
 
@@ -609,7 +609,7 @@ plt.ylabel("Precision")
 
 
     
-![png](Aurelen-Geron%20Chapter%203_files/Aurelen-Geron%20Chapter%203_45_1.png)
+![png](Aurelen-Geron%20Chapter%203_45_1.png)
     
 
 
@@ -684,7 +684,7 @@ plot_roc_curve(fpr, tpr)
 
 
     
-![png](Aurelen-Geron%20Chapter%203_files/Aurelen-Geron%20Chapter%203_53_0.png)
+![png](Aurelen-Geron%20Chapter%203_53_0.png)
     
 
 
@@ -746,7 +746,7 @@ plt.legend(loc="lower right")
 
 
     
-![png](Aurelen-Geron%20Chapter%203_files/Aurelen-Geron%20Chapter%203_59_1.png)
+![png](Aurelen-Geron%20Chapter%203_59_1.png)
     
 
 
@@ -980,7 +980,7 @@ plt.matshow(conf_mx, cmap=plt.cm.gray)
 
 
     
-![png](Aurelen-Geron%20Chapter%203_files/Aurelen-Geron%20Chapter%203_82_1.png)
+![png](Aurelen-Geron%20Chapter%203_82_1.png)
     
 
 
@@ -1005,7 +1005,7 @@ plt.matshow(norm_conf_mx, cmap=plt.cm.gray)
 
 
     
-![png](Aurelen-Geron%20Chapter%203_files/Aurelen-Geron%20Chapter%203_84_1.png)
+![png](Aurelen-Geron%20Chapter%203_84_1.png)
     
 
 

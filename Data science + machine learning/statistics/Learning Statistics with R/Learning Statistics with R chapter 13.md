@@ -600,7 +600,7 @@ hist(chico$improvement)
 
 
     
-![png](Learning%20Statistics%20with%20R%20chapter%2013_files/Learning%20Statistics%20with%20R%20chapter%2013_49_0.png)
+![png](Learning%20Statistics%20with%20R%20chapter%2013_49_0.png)
     
 
 
@@ -1167,13 +1167,13 @@ qqnorm(y=normal.data)
 
 
     
-![png](Learning%20Statistics%20with%20R%20chapter%2013_files/Learning%20Statistics%20with%20R%20chapter%2013_92_0.png)
+![png](Learning%20Statistics%20with%20R%20chapter%2013_92_0.png)
     
 
 
 
     
-![png](Learning%20Statistics%20with%20R%20chapter%2013_files/Learning%20Statistics%20with%20R%20chapter%2013_92_1.png)
+![png](Learning%20Statistics%20with%20R%20chapter%2013_92_1.png)
     
 
 

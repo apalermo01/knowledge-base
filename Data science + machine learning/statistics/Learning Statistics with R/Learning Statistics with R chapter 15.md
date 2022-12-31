@@ -1560,7 +1560,7 @@ plot(x=regression.2, which=4)
 
 
     
-![png](Learning%20Statistics%20with%20R%20chapter%2015_files/Learning%20Statistics%20with%20R%20chapter%2015_47_0.png)
+![png](Learning%20Statistics%20with%20R%20chapter%2015_47_0.png)
     
 
 
@@ -1572,7 +1572,7 @@ plot(x=regression.2, which=5)
 
 
     
-![png](Learning%20Statistics%20with%20R%20chapter%2015_files/Learning%20Statistics%20with%20R%20chapter%2015_48_0.png)
+![png](Learning%20Statistics%20with%20R%20chapter%2015_48_0.png)
     
 
 
@@ -1618,7 +1618,7 @@ hist(x=residuals(regression.2), # data are the residuals
 
 
     
-![png](Learning%20Statistics%20with%20R%20chapter%2015_files/Learning%20Statistics%20with%20R%20chapter%2015_53_0.png)
+![png](Learning%20Statistics%20with%20R%20chapter%2015_53_0.png)
     
 
 
@@ -1647,7 +1647,7 @@ plot(x=regression.2, which=2)
 
 
     
-![png](Learning%20Statistics%20with%20R%20chapter%2015_files/Learning%20Statistics%20with%20R%20chapter%2015_57_0.png)
+![png](Learning%20Statistics%20with%20R%20chapter%2015_57_0.png)
     
 
 
@@ -1666,7 +1666,7 @@ plot(x=yhat.2,
 
 
     
-![png](Learning%20Statistics%20with%20R%20chapter%2015_files/Learning%20Statistics%20with%20R%20chapter%2015_59_0.png)
+![png](Learning%20Statistics%20with%20R%20chapter%2015_59_0.png)
     
 
 
@@ -1681,7 +1681,7 @@ plot(x=regression.2, which=1)
 
 
     
-![png](Learning%20Statistics%20with%20R%20chapter%2015_files/Learning%20Statistics%20with%20R%20chapter%2015_62_0.png)
+![png](Learning%20Statistics%20with%20R%20chapter%2015_62_0.png)
     
 
 
@@ -1718,7 +1718,7 @@ plot(x=regression.2, which=3)
 
 
     
-![png](Learning%20Statistics%20with%20R%20chapter%2015_files/Learning%20Statistics%20with%20R%20chapter%2015_65_0.png)
+![png](Learning%20Statistics%20with%20R%20chapter%2015_65_0.png)
     
 
 

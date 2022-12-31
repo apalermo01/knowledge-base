@@ -37,7 +37,7 @@ hist(afl.margins)
 
 
     
-![png](Learning%20Statistics%20with%20R%20chapter%205_files/Learning%20Statistics%20with%20R%20chapter%205_3_0.png)
+![png](Learning%20Statistics%20with%20R%20chapter%205_3_0.png)
     
 
 
