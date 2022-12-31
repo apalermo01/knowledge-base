@@ -28,8 +28,6 @@ $$
 \text{F}_\beta = (1 + \beta^2) * \frac{\text{precision} * \text{recall}}{(\beta^2 * \text{precision}) + \text{recall}}
 $$
 
-- Specificity
-	- 
 ## References
 - https://towardsdatascience.com/the-5-classification-evaluation-metrics-you-must-know-aa97784ff226
 - https://en.wikipedia.org/wiki/Sensitivity_and_specificity

@@ -1,3 +1,5 @@
+This is one of two big ideas in inferential statistics: estimation and hypothesis testing
+
 When trying to make an inference about a population, there are usually 3 quantities at play:
 
 
