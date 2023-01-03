@@ -4,59 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "51b7dbff4e55aca6",
+        "id": "9c5c7fbf10be25c9",
         "type": "tabs",
         "children": [
           {
-            "id": "761815520450caaa",
+            "id": "232802e2816d172a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data science + machine learning/tools/generate ssh key.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e4c2613a3212a225",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data science + machine learning/tools/Kubernetes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "873439bc30ec089b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data science + machine learning/tools/Docker.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "68335261507f01c8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "programming/Object Oriented Programming/Polymorphism.md",
+                "file": "Data science, machine learning/AI/machine learning/Summary of Machine Learning Models.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -114,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming/Object Oriented Programming/Polymorphism.md",
+                "file": "Data science, machine learning/AI/machine learning/Summary of Machine Learning Models.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,17 +104,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "68335261507f01c8",
+  "active": "232802e2816d172a",
   "lastOpenFiles": [
-    "programming/python/Basics/generators.md",
-    "programming/Object Oriented Programming/Polymorphism.md",
-    "Data science + machine learning/tools/Kubernetes.md",
-    "Data science + machine learning/tools/Ray.md",
-    "Data science + machine learning/tools/Docker.md",
-    "linux/gnome-terminal.md",
-    "Data science + machine learning/tools/generate ssh key.md",
-    "programming/python/Basics/list of topics.md",
     "Resources.md",
-    "Data science + machine learning/statistics/Principles of hypothesis testing.md"
+    "Cloud, DevOps, MLOps, and other utilities/generate ssh key.md",
+    "Cloud, DevOps, MLOps, and other utilities/Kubernetes.md",
+    "Cloud, DevOps, MLOps, and other utilities/Docker.md",
+    "Cloud, DevOps, MLOps, and other utilities/Ray.md",
+    "Data science, machine learning/AI/machine learning/Preprocessing functions.md",
+    "images/svgphp-radians-7-s0.svg.md",
+    "Data science, machine learning/AI/machine learning/Summary of Machine Learning Models.md",
+    "Data science, machine learning/statistics/Linear Regression evaluation metrics.md",
+    "Data science, machine learning/statistics/Classification metrics.md"
   ]
 }
