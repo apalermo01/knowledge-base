@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "51b7dbff4e55aca6",
+        "id": "9c5c7fbf10be25c9",
         "type": "tabs",
         "children": [
           {
-            "id": "761815520450caaa",
+            "id": "232802e2816d172a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming/python/Basics/list of topics.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f9f169440527ce9e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "programming/Object Oriented Programming/Polymorphism.md",
+                "file": "Resources.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -74,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 343.5,
-    "collapsed": true
+    "width": 343.5
   },
   "right": {
     "id": "55a20cd6ff21553e",
@@ -91,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming/Object Oriented Programming/Polymorphism.md",
+                "file": "Resources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,17 +104,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "f9f169440527ce9e",
+  "active": "232802e2816d172a",
   "lastOpenFiles": [
-    "programming/python/Basics/generators.md",
-    "programming/Object Oriented Programming/Polymorphism.md",
-    "programming/python/Basics/list of topics.md",
+    "Cloud, DevOps, MLOps, and other utilities/Docker.md",
+    "Cloud, DevOps, MLOps, and other utilities/Kubernetes.md",
+    "Cloud, DevOps, MLOps, and other utilities/Ray.md",
+    "Data science, machine learning/AI/machine learning/Summary of Machine Learning Models.md",
     "Resources.md",
-    "Data science + machine learning/statistics/Principles of hypothesis testing.md",
-    "linux/Arch linux setup.md",
-    "Data science + machine learning/statistics/Classification metrics.md",
-    "Data science + machine learning/statistics/Estimating parameters of a population.md",
-    "Data science + machine learning/statistics/Probability distributions.md",
-    "Data science + machine learning/tools/Docker.md"
+    "Cloud, DevOps, MLOps, and other utilities/generate ssh key.md",
+    "Data science, machine learning/AI/machine learning/Preprocessing functions.md",
+    "images/svgphp-radians-7-s0.svg.md",
+    "Data science, machine learning/statistics/Linear Regression evaluation metrics.md",
+    "Data science, machine learning/statistics/Classification metrics.md"
   ]
 }
