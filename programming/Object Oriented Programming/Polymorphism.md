@@ -10,7 +10,7 @@ class Vehicle:
 		 raise NotImplementedError
 	 
 	def drive(self):
-		if about_to_crash(self):
+		if about_to_crash:
 			dont()
 
 class Bicycle(Vehicle):
