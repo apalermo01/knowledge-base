@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data science, machine learning/statistics/Classification metrics.md",
+                "file": "linux/gnome-terminal.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9da61777cd29fd27",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "linux/ssh.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0bb5abb34a4b012c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "programming/python/Common idioms and tasks.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -61,7 +86,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 343.5
+    "width": 343.5,
+    "collapsed": true
   },
   "right": {
     "id": "55a20cd6ff21553e",
@@ -77,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data science, machine learning/statistics/Classification metrics.md",
+                "file": "linux/ssh.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,17 +130,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "9d1aa100bec249df",
+  "active": "9da61777cd29fd27",
   "lastOpenFiles": [
+    "linux/gnome-terminal.md",
+    "Cloud, DevOps, MLOps, and other utilities/Docker.md",
+    "Data science, machine learning/statistics/Classification metrics.md",
     "programming/Object Oriented Programming/Polymorphism.md",
     "Resources.md",
     "programming/python/django/first django app.md",
     "physics/physics 1/Summary - Types of energy.md",
-    "Cloud, DevOps, MLOps, and other utilities/Docker.md",
     "Cloud, DevOps, MLOps, and other utilities/Kubernetes.md",
     "Cloud, DevOps, MLOps, and other utilities/Ray.md",
-    "Data science, machine learning/AI/machine learning/Summary of Machine Learning Models.md",
-    "Cloud, DevOps, MLOps, and other utilities/generate ssh key.md",
-    "Data science, machine learning/AI/machine learning/Preprocessing functions.md"
+    "Data science, machine learning/AI/machine learning/Summary of Machine Learning Models.md"
   ]
 }
