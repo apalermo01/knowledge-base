@@ -8,36 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9d1aa100bec249df",
+            "id": "31a4584079f023e8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux/gnome-terminal.md",
+                "file": "SQL/Postgresql setup.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "9da61777cd29fd27",
+            "id": "1e251e5fc6cca7af",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux/ssh.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0bb5abb34a4b012c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "programming/python/Common idioms and tasks.md",
+                "file": "linux/Misc.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 343.5,
-    "collapsed": true
+    "width": 343.5
   },
   "right": {
     "id": "55a20cd6ff21553e",
@@ -103,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux/ssh.md",
+                "file": "linux/Misc.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,17 +117,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "9da61777cd29fd27",
+  "active": "1e251e5fc6cca7af",
   "lastOpenFiles": [
+    "SQL/Postgresql setup.md",
+    "programming/python/Common idioms and tasks.md",
     "linux/gnome-terminal.md",
+    "linux/ssh.md",
+    "Cloud, DevOps, MLOps, and other utilities/generate ssh key.md",
     "Cloud, DevOps, MLOps, and other utilities/Docker.md",
     "Data science, machine learning/statistics/Classification metrics.md",
     "programming/Object Oriented Programming/Polymorphism.md",
     "Resources.md",
-    "programming/python/django/first django app.md",
-    "physics/physics 1/Summary - Types of energy.md",
-    "Cloud, DevOps, MLOps, and other utilities/Kubernetes.md",
-    "Cloud, DevOps, MLOps, and other utilities/Ray.md",
-    "Data science, machine learning/AI/machine learning/Summary of Machine Learning Models.md"
+    "programming/python/django/first django app.md"
   ]
 }
