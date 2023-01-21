@@ -11,7 +11,6 @@ combines multiple tables together
 **WHERE**
 - filters records based on a condition
 
-
 **GROUPBY**
 - groups rows that have the same value and aggregates the other columns
 

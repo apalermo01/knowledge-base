@@ -37,14 +37,38 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "programming/python/Common idioms and tasks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d48a5e28df9f9f5e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "SQL/basic clauses.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "19211b3bea9e20c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL/Keys and Indices.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -86,7 +110,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284.5
+    "width": 284.5,
+    "collapsed": true
   },
   "right": {
     "id": "55a20cd6ff21553e",
@@ -102,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/basic clauses.md",
+                "file": "SQL/Keys and Indices.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,17 +154,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "e87940f49212e016",
+  "active": "19211b3bea9e20c0",
   "lastOpenFiles": [
+    "SQL/basic clauses.md",
     "SQL/Postgresql setup.md",
+    "programming/Fundamental concepts.md",
+    "programming/python/Common idioms and tasks.md",
+    "programming/python/Basics/list of topics.md",
     "Data science, machine learning/statistics/time series analysis/chapter_1.md",
     "linux/Misc.md",
-    "programming/python/Common idioms and tasks.md",
     "linux/gnome-terminal.md",
     "linux/ssh.md",
-    "Cloud, DevOps, MLOps, and other utilities/generate ssh key.md",
-    "Cloud, DevOps, MLOps, and other utilities/Docker.md",
-    "Data science, machine learning/statistics/Classification metrics.md",
-    "programming/Object Oriented Programming/Polymorphism.md"
+    "Cloud, DevOps, MLOps, and other utilities/generate ssh key.md"
   ]
 }
