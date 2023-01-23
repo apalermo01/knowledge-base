@@ -8,51 +8,23 @@
         "type": "tabs",
         "children": [
           {
-            "id": "31a4584079f023e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SQL/Postgresql setup.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1e251e5fc6cca7af",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SQL/Postgresql setup.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e87940f49212e016",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "programming/python/Common idioms and tasks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "d48a5e28df9f9f5e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/basic clauses.md",
+                "file": "Data science, machine learning/statistics/Classification metrics.md",
                 "mode": "source",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "f6e27de03e208617",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -61,14 +33,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL/Keys and Indices.md",
+                "file": "programming/python/boto3/Boto3 quickstart.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "dcd5a6fb4adce00f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,8 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284.5,
-    "collapsed": true
+    "width": 284.5
   },
   "right": {
     "id": "55a20cd6ff21553e",
@@ -127,7 +106,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/Keys and Indices.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,17 +132,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "19211b3bea9e20c0",
+  "active": "f6e27de03e208617",
   "lastOpenFiles": [
-    "SQL/basic clauses.md",
+    "programming/python/pytest.md",
+    "Data science, machine learning/statistics/Classification metrics.md",
     "SQL/Postgresql setup.md",
-    "programming/Fundamental concepts.md",
+    "SQL/basic clauses.md",
     "programming/python/Common idioms and tasks.md",
-    "programming/python/Basics/list of topics.md",
-    "Data science, machine learning/statistics/time series analysis/chapter_1.md",
-    "linux/Misc.md",
-    "linux/gnome-terminal.md",
-    "linux/ssh.md",
-    "Cloud, DevOps, MLOps, and other utilities/generate ssh key.md"
+    "Cloud, DevOps, MLOps, and other utilities/REST APIs.md",
+    "programming/python/boto3/Boto3 quickstart.md",
+    "programming/python/boto3/boto3 - A sample tutorial.md",
+    "Cloud, DevOps, MLOps, and other utilities/aws/Introduction to Amazon SageMaker.md",
+    "SQL/Keys and Indices.md"
   ]
 }
