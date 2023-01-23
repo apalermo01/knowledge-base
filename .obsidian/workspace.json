@@ -23,8 +23,12 @@
             "id": "f6e27de03e208617",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "math/linear algebra/Vector spaces.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -106,6 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "math/linear algebra/Vector spaces.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +137,7 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "f6e27de03e208617",
+  "active": "1f43de2a15f509a5",
   "lastOpenFiles": [
     "programming/python/pytest.md",
     "Data science, machine learning/statistics/Classification metrics.md",
