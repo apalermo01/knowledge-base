@@ -1,6 +1,5 @@
 # Boto3 sample tutorial
 
-https://boto3.amazonaws.com/v1/documentation/api/latest/guide/sqs.html
 
 Use boto3 with SQS.<br>
 Generate a new queue, get and use existing queue, push messages onto the queue, and process messages<br> 
@@ -227,3 +226,7 @@ for message in queue.receive_messages():
 ```python
 
 ```
+
+# References
+
+- https://boto3.amazonaws.com/v1/documentation/api/latest/guide/sqs.html
