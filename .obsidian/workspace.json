@@ -8,51 +8,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d48a5e28df9f9f5e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data science, machine learning/statistics/Classification metrics.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f6e27de03e208617",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "math/linear algebra/Vector spaces.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "19211b3bea9e20c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "programming/python/boto3/Boto3 quickstart.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dcd5a6fb4adce00f",
+            "id": "4ebaea50dd8c6162",
             "type": "leaf",
             "state": {
               "type": "empty",
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "math/linear algebra/Vector spaces.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,17 +99,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "1f43de2a15f509a5",
+  "active": "4ebaea50dd8c6162",
   "lastOpenFiles": [
-    "programming/python/pytest.md",
-    "Data science, machine learning/statistics/Classification metrics.md",
+    "TODOs.md",
+    "Data science, machine learning/AI/machine learning/Perceptron algorithm.md",
+    "Data science, machine learning/AI/machine learning/Ridge regression derivation.md",
+    "Data science, machine learning/statistics/linear models/Ordinary Least Squares derivation.md",
+    "Data science, machine learning/AI/machine learning/Logistic Regression.md",
+    "Data science, machine learning/statistics/Linear Regression evaluation metrics.md",
     "SQL/Postgresql setup.md",
-    "SQL/basic clauses.md",
-    "programming/python/Common idioms and tasks.md",
-    "Cloud, DevOps, MLOps, and other utilities/REST APIs.md",
-    "programming/python/boto3/Boto3 quickstart.md",
-    "programming/python/boto3/boto3 - A sample tutorial.md",
-    "Cloud, DevOps, MLOps, and other utilities/aws/Introduction to Amazon SageMaker.md",
-    "SQL/Keys and Indices.md"
+    "linux/ssh.md",
+    "Data science, machine learning/statistics/Linear regression derivations.md",
+    "Data science, machine learning/statistics/linear models/Poisson Regression.md"
   ]
 }
