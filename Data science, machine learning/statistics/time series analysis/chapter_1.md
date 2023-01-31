@@ -101,7 +101,7 @@ $$
 
 ex: mean of white noise is 0
 
-ex: mean of a random walk with drift is $/delta t$
+ex: mean of a random walk with drift is $\delta t$
 
 lack of independence between two adjacent values can be adressed numerically:
 
@@ -182,9 +182,41 @@ $$
 Essentially, the autocovariance depends only on the time difference between s and t, not on the actual times
 
 **weakly stationary**
+- mean value is constant and does not depend on time
+- autocovariance function ($\gamma(s, t)$) dependds on $s$ and $t$ only through their difference $|s-t|$
+- for the rest of this book, "stationary" = "weakly stationary"
+- the quantities should (at least) be able to be estimated by averaging
+- strictly stationary implies weakly stationary, but not the other way around unless there are other restrictions. (e.g. a stationary Gaussian time series is also strictly stationary.)
 
+
+- since the mean function is independent of time, $\mu_t = \mu$. 
+- can rewrite autocovariance function: $\gamma(t+h,t) = \text{cov}(x_{t+h}, x_t) = \text{cov}(x_h, x_0) = \gamma(h, 0)$ (where $h$ is the time difference). 
+
+**autocovariance function of a stationary time series**
+- $\gamma(h) = \text{cov}(x_{t+h}, x_t) = E[(x_{t+h} - \mu)(x_t - \mu)]$
 
 **autocorrelation function (ACF) of a stationary time series**
+- $\rho(h) = \frac{\gamma(t+h, t)}{\sqrt{\gamma(t+h, t+h)\gamma(t, t)}} = \frac{\gamma(h)}{\gamma(0)}$
+
+**Example: stationary white noise**
+mean of a white noise series:
+$$
+\mu_{wt} = 0
+$$
+
+autocovariance of white noise:
+$$
+\gamma_w(h) = \text{cov} (w_{t+h}, w_t) = 
+\begin{cases}
+\sigma_w ^2 & h = 0, \\
+0 & h \neq 0
+\end{cases}
+$$
+
+- satisfies the definition of stationary
+
+**Example: stationary of a moving average**
+- the previous example of a 3-point moving average is stationary becuase the asutocovariance function is independent of time
 
 **trend stationary**
 
