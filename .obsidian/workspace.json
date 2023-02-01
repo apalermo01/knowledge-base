@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data science, machine learning/AI/machine learning/Ridge regression derivation.md",
+                "file": "Data science, machine learning/AI/machine learning/Logistic Regression.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data science, machine learning/AI/machine learning/Ridge regression derivation.md",
+                "file": "Data science, machine learning/AI/machine learning/Logistic Regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,17 +104,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "4ebaea50dd8c6162",
+  "active": "1f43de2a15f509a5",
   "lastOpenFiles": [
     "Data science, machine learning/AI/machine learning/Perceptron algorithm.md",
-    "Data science, machine learning/statistics/linear models/Ordinary Least Squares derivation.pdf",
-    "Data science, machine learning/statistics/linear models/Ordinary Least Squares derivation.md",
-    "TODOs.md",
     "Data science, machine learning/AI/machine learning/Ridge regression derivation.md",
     "Data science, machine learning/AI/machine learning/Logistic Regression.md",
-    "Data science, machine learning/statistics/Linear Regression evaluation metrics.md",
     "SQL/Postgresql setup.md",
-    "linux/ssh.md",
-    "Data science, machine learning/statistics/Linear regression derivations.md"
+    "SQL/Postgresql database roles.md",
+    "SQL/basic clauses.md",
+    "TODOs.md",
+    "Data science, machine learning/statistics/linear models/Ordinary Least Squares derivation.md",
+    "Data science, machine learning/statistics/Linear Regression evaluation metrics.md",
+    "linux/ssh.md"
   ]
 }
