@@ -1,7 +1,7 @@
 # Kirchoff's Rules
 
 These are a set of rules to use when analyzing complex / branching circuits. e.g.:
-![[Pasted image 20220927175829.png]]
+![[circuit problem.png]]
 (source: 3000 solved problems in physics fig 27-40 (pg 462))
 
 ## Junction rule

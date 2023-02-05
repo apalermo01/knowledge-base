@@ -11,11 +11,26 @@
             "id": "4ebaea50dd8c6162",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "image",
+              "state": {
+                "file": "physics/physics 2/images/4 equations for electrostatics.png"
+              }
+            }
+          },
+          {
+            "id": "8201f1f6db4edc92",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "physics/physics 2/Notes - Gauss's Law.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -73,6 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "physics/physics 2/Notes - Gauss's Law.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,17 +115,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "4ebaea50dd8c6162",
+  "active": "8201f1f6db4edc92",
   "lastOpenFiles": [
-    "TODOs.md",
-    "Data science, machine learning/AI/machine learning/Perceptron algorithm.md",
-    "Data science, machine learning/AI/machine learning/Ridge regression derivation.md",
-    "Data science, machine learning/statistics/linear models/Ordinary Least Squares derivation.md",
-    "Data science, machine learning/AI/machine learning/Logistic Regression.md",
-    "Data science, machine learning/statistics/Linear Regression evaluation metrics.md",
-    "SQL/Postgresql setup.md",
-    "linux/ssh.md",
-    "Data science, machine learning/statistics/Linear regression derivations.md",
-    "Data science, machine learning/statistics/linear models/Poisson Regression.md"
+    "physics/physics 2/Electric fields.md",
+    "physics/physics 2/images/4 equations for electrostatics.png",
+    "physics/physics 2/Notes - 4 equations for electrostatics.pdf",
+    "physics/physics 2/Exercises - electric fields of continuous charge distributions.pdf",
+    "physics/physics 2/Notes - circuits.md",
+    "physics/physics 2/Notes - Kirchoff's rules.md",
+    "physics/physics 2/Notes - Gauss's Law.md",
+    "physics/physics 2/Notes - conductors.md",
+    "physics/physics 2/Notes - magnetism.md",
+    "physics/physics 2/images/circuit problem.png"
   ]
 }
