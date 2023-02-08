@@ -31,6 +31,15 @@ createuser <rolename>
 dropuser <rolename>
 ```
 
+create a user with the given password:
+
+```sql
+
+CREATE ROLE <rolename> LOGIN PASSWORD '<password>';
+```
+
+create a user with permissions to only create a database
+
 **To list users**
 
 ```sql

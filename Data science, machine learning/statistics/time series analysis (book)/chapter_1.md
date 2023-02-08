@@ -254,10 +254,29 @@ $$
 \rho_{xy} (h) = \rho_{yx} (-h)
 $$
 
-**prediction using cross-correlation**
 
-**linear process**
+**Definition: linear process**
+A linear combination of white noise variates $w_t$:
+
+$$
+x_t = \mu + \sum_{j=-\infty}^{\infty}\phi_j w_{t-j}
+$$
 
 **gaussian process**
+n-dimensional vectors $x=(x_{t_1}, x_{t_2}, ..., x_{t_n})$ for every collection of distinct time points $t_1, t_2, ... t_n$ and every positive integer $n$ have a multivariate normal distribution
+
+## 1.5 Estimation of Correlation
+
+**Sample autocovariance function**
+
+$$
+\hat \gamma(h) = n^{-1} \sum_{t=1}^{n-h} (x_{t+h} - \bar x) (x_t - \bar x)
+$$
+
+**sample autocorrelation function**
+
+$$
+\hat \rho (h) = \frac{\hat \gamma (h)}{\hat \gamma (0)}
+$$
 
 

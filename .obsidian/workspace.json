@@ -28,9 +28,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e54e1f80a8b53adc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL/basic clauses.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -72,7 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284.5
+    "width": 537.5110359191895
   },
   "right": {
     "id": "55a20cd6ff21553e",
@@ -88,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "physics/physics 2/Notes - Gauss's Law.md",
+                "file": "SQL/basic clauses.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,17 +127,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "8201f1f6db4edc92",
+  "active": "e54e1f80a8b53adc",
   "lastOpenFiles": [
+    "physics/physics 1/Notes - momentum, impulse, convservation of momentum, and elastic and inelastic collisions.pdf",
+    "physics/physics 1/Exercises - momentum, impulse, conservation of momentum, and elastic and inelastic collisions.pdf",
+    "SQL/Postgresql database roles.md",
+    "Data science, machine learning/statistics/stationary time series processess.md",
+    "physics/physics 2/Notes - Gauss's Law.md",
     "physics/physics 2/Electric fields.md",
     "physics/physics 2/images/4 equations for electrostatics.png",
     "physics/physics 2/Notes - 4 equations for electrostatics.pdf",
     "physics/physics 2/Exercises - electric fields of continuous charge distributions.pdf",
-    "physics/physics 2/Notes - circuits.md",
-    "physics/physics 2/Notes - Kirchoff's rules.md",
-    "physics/physics 2/Notes - Gauss's Law.md",
-    "physics/physics 2/Notes - conductors.md",
-    "physics/physics 2/Notes - magnetism.md",
-    "physics/physics 2/images/circuit problem.png"
+    "physics/physics 2/Notes - circuits.md"
   ]
 }
