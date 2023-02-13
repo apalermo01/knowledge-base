@@ -4,45 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "1719838a7da33880",
+        "id": "28716d2baca7edb3",
         "type": "tabs",
         "children": [
           {
-            "id": "4ebaea50dd8c6162",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "physics/physics 2/images/4 equations for electrostatics.png"
-              }
-            }
-          },
-          {
-            "id": "8201f1f6db4edc92",
+            "id": "32ce6424423ed139",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "physics/physics 2/Notes - Gauss's Law.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e54e1f80a8b53adc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SQL/basic clauses.md",
+                "file": "Data science, machine learning/statistics/Principles of hypothesis testing.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -84,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 537.5110359191895
+    "width": 405.51103591918945
   },
   "right": {
     "id": "55a20cd6ff21553e",
@@ -100,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/basic clauses.md",
+                "file": "Data science, machine learning/statistics/Principles of hypothesis testing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,17 +104,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "e54e1f80a8b53adc",
+  "active": "32ce6424423ed139",
   "lastOpenFiles": [
-    "physics/physics 1/Notes - momentum, impulse, convservation of momentum, and elastic and inelastic collisions.pdf",
-    "physics/physics 1/Exercises - momentum, impulse, conservation of momentum, and elastic and inelastic collisions.pdf",
-    "SQL/Postgresql database roles.md",
-    "Data science, machine learning/statistics/stationary time series processess.md",
-    "physics/physics 2/Notes - Gauss's Law.md",
-    "physics/physics 2/Electric fields.md",
+    "Data science, machine learning/statistics/Stationary time series processess.md",
+    "Data science, machine learning/statistics/Covariance matrices.md",
     "physics/physics 2/images/4 equations for electrostatics.png",
-    "physics/physics 2/Notes - 4 equations for electrostatics.pdf",
-    "physics/physics 2/Exercises - electric fields of continuous charge distributions.pdf",
-    "physics/physics 2/Notes - circuits.md"
+    "physics/physics 2/Notes - Gauss's Law.md",
+    "physics/physics 2/Notes - AC Circuits.md",
+    "physics/physics 2/Notes - circuits.md",
+    "Data science, machine learning/statistics/Estimating parameters of a population.md",
+    "Data science, machine learning/statistics/Principles of hypothesis testing.md",
+    "SQL/basic clauses.md",
+    "physics/physics 1/Notes - momentum, impulse, convservation of momentum, and elastic and inelastic collisions.pdf"
   ]
 }
