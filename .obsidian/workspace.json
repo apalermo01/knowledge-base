@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data science, machine learning/statistics/Principles of hypothesis testing.md",
+                "file": "physics/physics 2/Notes - circuits.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9549ea9ac4461792",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "physics/physics 1/Summary - key ideas in fluid dynamics (introductory physics).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data science, machine learning/statistics/Principles of hypothesis testing.md",
+                "file": "physics/physics 1/Summary - key ideas in fluid dynamics (introductory physics).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,17 +117,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "32ce6424423ed139",
+  "active": "9549ea9ac4461792",
   "lastOpenFiles": [
+    "physics/physics 2/Notes - circuits.md",
+    "physics/physics 2/Notes - circuits.pdf",
+    "Data science, machine learning/statistics/time series analysis (book)/chapter_1.md",
+    "physics/physics 2/Notes - 4 equations for electrostatics.pdf",
+    "physics/physics 2/Electric fields.md",
+    "Data science, machine learning/statistics/Principles of hypothesis testing.md",
     "Data science, machine learning/statistics/Stationary time series processess.md",
     "Data science, machine learning/statistics/Covariance matrices.md",
     "physics/physics 2/images/4 equations for electrostatics.png",
-    "physics/physics 2/Notes - Gauss's Law.md",
-    "physics/physics 2/Notes - AC Circuits.md",
-    "physics/physics 2/Notes - circuits.md",
-    "Data science, machine learning/statistics/Estimating parameters of a population.md",
-    "Data science, machine learning/statistics/Principles of hypothesis testing.md",
-    "SQL/basic clauses.md",
-    "physics/physics 1/Notes - momentum, impulse, convservation of momentum, and elastic and inelastic collisions.pdf"
+    "physics/physics 2/Notes - Gauss's Law.md"
   ]
 }
