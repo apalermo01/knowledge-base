@@ -13,6 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
+
                 "file": "physics/physics 2/Notes - circuits.md",
                 "mode": "source",
                 "source": false
@@ -26,6 +27,7 @@
               "type": "markdown",
               "state": {
                 "file": "physics/physics 1/Summary - key ideas in fluid dynamics (introductory physics).md",
+
                 "mode": "source",
                 "source": false
               }
@@ -91,6 +93,7 @@
               "type": "backlink",
               "state": {
                 "file": "physics/physics 1/Summary - key ideas in fluid dynamics (introductory physics).md",
+
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,5 +132,6 @@
     "Data science, machine learning/statistics/Covariance matrices.md",
     "physics/physics 2/images/4 equations for electrostatics.png",
     "physics/physics 2/Notes - Gauss's Law.md"
+
   ]
 }
