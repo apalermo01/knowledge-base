@@ -101,7 +101,7 @@ $$
 
 ex: mean of white noise is 0
 
-ex: mean of a random walk with drift is $/delta t$
+ex: mean of a random walk with drift is $\delta t$
 
 lack of independence between two adjacent values can be adressed numerically:
 
@@ -182,19 +182,101 @@ $$
 Essentially, the autocovariance depends only on the time difference between s and t, not on the actual times
 
 **weakly stationary**
+- mean value is constant and does not depend on time
+- autocovariance function ($\gamma(s, t)$) dependds on $s$ and $t$ only through their difference $|s-t|$
+- for the rest of this book, "stationary" = "weakly stationary"
+- the quantities should (at least) be able to be estimated by averaging
+- strictly stationary implies weakly stationary, but not the other way around unless there are other restrictions. (e.g. a stationary Gaussian time series is also strictly stationary.)
 
+
+- since the mean function is independent of time, $\mu_t = \mu$. 
+- can rewrite autocovariance function: $\gamma(t+h,t) = \text{cov}(x_{t+h}, x_t) = \text{cov}(x_h, x_0) = \gamma(h, 0)$ (where $h$ is the time difference). 
+
+**autocovariance function of a stationary time series**
+- $\gamma(h) = \text{cov}(x_{t+h}, x_t) = E[(x_{t+h} - \mu)(x_t - \mu)]$
 
 **autocorrelation function (ACF) of a stationary time series**
+- $\rho(h) = \frac{\gamma(t+h, t)}{\sqrt{\gamma(t+h, t+h)\gamma(t, t)}} = \frac{\gamma(h)}{\gamma(0)}$
 
-**trend stationary**
+**Example: stationary white noise**
+mean of a white noise series:
+$$
+\mu_{wt} = 0
+$$
+
+autocovariance of white noise:
+$$
+\gamma_w(h) = \text{cov} (w_{t+h}, w_t) = 
+\begin{cases}
+\sigma_w ^2 & h = 0, \\
+0 & h \neq 0
+\end{cases}
+$$
+
+- satisfies the definition of stationary
+
+**Example: stationary of a moving average**
+- the previous example of a 3-point moving average is stationary becuase the autocovariance function is independent of time
+
+**Example: Random walk**
+- A random walk is NOT stationary becuase autocovariance function depends on time
+
+**Example: trend stationary**
+Take the function $x_t = \alpha + \beta t + y_t$ where $y_t$ is stationary. This process is NOT stationary becuase the mean function is not indpenedent of time. However, the autocovariance function IS stationary since it's independent of time. Therefore, this model has *stationary behavior around a linear trend*, this is called **trend stationary** 
+
+**properties of autocovariance function**
+- $\gamma (h)$ is non-negative definite, so the variances of linear combinations of variates $x_t$ will never be negative.
+
+- at $h=0$, $\gamma(0) = E[(x_t - \mu)]^2$
+- cauchy-schwarz inequality implies: $|\gamma(h)| \leq \gamma(0)$
+- symmetric about the origin: $\gamma(h) = \gamma(-h)$
+
+**Definition: jointly stationary**
+
+Two time series $x_t, y_t$ are **jointly stationary** if:
+
+1) they are each stationary and<br>
+2) the cross-covariance function is a function only of lag $h$
+
 
 
 **cross-correlation function (CCF)**
+cross-correlation of a jointly stationary time series is:
 
-**prediction using cross-correlation**
+$$
+\rho_{xy}(h) = \frac{\gamma_{xy}(h)}{\sqrt{\gamma_x(0)\gamma_y(0)}}
+$$
 
-**linear process**
+NOTE: $\rho_{xy}(h) \neq \rho_{xy}(-h)$<br>
+but:
+
+$$
+\rho_{xy} (h) = \rho_{yx} (-h)
+$$
+
+
+**Definition: linear process**
+A linear combination of white noise variates $w_t$:
+
+$$
+x_t = \mu + \sum_{j=-\infty}^{\infty}\phi_j w_{t-j}
+$$
 
 **gaussian process**
+n-dimensional vectors $x=(x_{t_1}, x_{t_2}, ..., x_{t_n})$ for every collection of distinct time points $t_1, t_2, ... t_n$ and every positive integer $n$ have a multivariate normal distribution
+
+## 1.5 Estimation of Correlation
+
+**Sample autocovariance function**
+
+$$
+\hat \gamma(h) = n^{-1} \sum_{t=1}^{n-h} (x_{t+h} - \bar x) (x_t - \bar x)
+$$
+
+**sample autocorrelation function**
+
+$$
+\hat \rho (h) = \frac{\hat \gamma (h)}{\hat \gamma (0)}
+$$
 
 

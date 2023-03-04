@@ -77,6 +77,20 @@ source: https://www.dataday.life/blog/statistics/mnemonic-for-remembering-type-i
 	- if $\alpha = 0.05$, then the critical region must cover 5% of the sampling distrubution
 - **critical values** - X-values that represent the boundaries of the critical region
 
+## What about type II error? 
+
+- A type II error ($\beta$) occurs when we incorrectly accept the null hypothesis
+- When measuring type II error, we actually measure $1-\beta$, which we call the **power** of a test
+- $\beta$ depends on the true value of the test statistic
+- Therefore, people will calculate the power for every possible value of the test statistic and generate a **power function**
+
+## Effect size
+- A way to measure how similar the true state of the world is to the null hypothesis.
+- take the ESP experiment as an example:
+	- $H_0: \theta = 0.5$
+	- if we reject the null with $\hat \theta = 0.8$, that is way more impressive than rejecting the null with $\hat \theta = 0.55$. 
+- If we want to increase the power of a test, finding ways to increase effect size is a good start
+- normally, people don't worry about calculating this (very difficult to know or even define)
 
 ## steps for doing a hypothesis test
 

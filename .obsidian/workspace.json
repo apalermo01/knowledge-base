@@ -4,22 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "1719838a7da33880",
+        "id": "28716d2baca7edb3",
         "type": "tabs",
         "children": [
           {
-            "id": "4ebaea50dd8c6162",
+            "id": "32ce6424423ed139",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data science, machine learning/AI/machine learning/Logistic Regression.md",
+
+                "file": "physics/physics 2/Notes - circuits.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9549ea9ac4461792",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "physics/physics 1/Summary - key ideas in fluid dynamics (introductory physics).md",
+
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -61,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284.5
+    "width": 405.51103591918945
   },
   "right": {
     "id": "55a20cd6ff21553e",
@@ -77,7 +92,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data science, machine learning/AI/machine learning/Logistic Regression.md",
+                "file": "physics/physics 1/Summary - key ideas in fluid dynamics (introductory physics).md",
+
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,17 +120,18 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "1f43de2a15f509a5",
+  "active": "9549ea9ac4461792",
   "lastOpenFiles": [
-    "Data science, machine learning/AI/machine learning/Perceptron algorithm.md",
-    "Data science, machine learning/AI/machine learning/Ridge regression derivation.md",
-    "Data science, machine learning/AI/machine learning/Logistic Regression.md",
-    "SQL/Postgresql setup.md",
-    "SQL/Postgresql database roles.md",
-    "SQL/basic clauses.md",
-    "TODOs.md",
-    "Data science, machine learning/statistics/linear models/Ordinary Least Squares derivation.md",
-    "Data science, machine learning/statistics/Linear Regression evaluation metrics.md",
-    "linux/ssh.md"
+    "physics/physics 2/Notes - circuits.md",
+    "physics/physics 2/Notes - circuits.pdf",
+    "Data science, machine learning/statistics/time series analysis (book)/chapter_1.md",
+    "physics/physics 2/Notes - 4 equations for electrostatics.pdf",
+    "physics/physics 2/Electric fields.md",
+    "Data science, machine learning/statistics/Principles of hypothesis testing.md",
+    "Data science, machine learning/statistics/Stationary time series processess.md",
+    "Data science, machine learning/statistics/Covariance matrices.md",
+    "physics/physics 2/images/4 equations for electrostatics.png",
+    "physics/physics 2/Notes - Gauss's Law.md"
+
   ]
 }
