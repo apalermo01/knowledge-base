@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "physics/physics 1/Summary - key ideas in fluid dynamics (introductory physics).md",
+                "file": "physics/physics 2/Notes - magnetism.md",
                 "mode": "source",
                 "source": false
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "physics/physics 1/Summary - key ideas in fluid dynamics (introductory physics).md",
+                "file": "physics/physics 2/Notes - magnetism.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,8 +132,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c275d67650137f21",
+  "active": "1f43de2a15f509a5",
   "lastOpenFiles": [
+    "physics/physics 2/Notes - AC Circuits.md",
+    "physics/physics 1/Summary - key ideas in fluid dynamics (introductory physics).md",
     "AI/machine learning/Naive Bayes.pdf",
     "math/stats/Probability distributions.md",
     "math/stats/One-way ANOVA.md",
@@ -141,8 +143,6 @@
     "math/stats/Generalized Linear Models.md",
     "math/calculus 3/Notes - volumes of common geometries.md",
     "physics/physics 2/Notes - Electromotive force (nonideal batteries).pdf",
-    "physics/physics 2/Notes - circuits.pdf",
-    "math/calculus 3/images/Pasted image 20221114110542.png",
-    "math/stats/Covariance matrices.md"
+    "physics/physics 2/Notes - circuits.pdf"
   ]
 }
