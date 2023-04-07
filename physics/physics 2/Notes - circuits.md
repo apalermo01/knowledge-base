@@ -13,10 +13,10 @@
 **Series** circuits have elements in a chain. **Parallel** circuits have branching elements. For more complex circuits, it is not uncommon for some elements to be in series and others to be in parallel
 
 **series circuit**
-![[Pasted image 20220920174332.png]]
+![[series circuit.png]]
 
 **Parallel circuit**
-![[Pasted image 20220921160007.png]]
+![[parallel circuit.png]]
 
 When calculating equivalent capacitance or resistance, you will frequently encounter circuits with elements in both series and parallel. In this case, identify groupings of elements that are either all in series or all in parallel and combine elements accordingly see ['Exercises - circuits.pdf'](obsidian://open?vault=knowledge-base&file=physics%2Fphysics%202%2FExercises%20-%20circuits.pdf) for some examples.
 
@@ -25,7 +25,7 @@ When calculating equivalent capacitance or resistance, you will frequently encou
 **Resistors** 
 Think about electricity as water flowing through a pipe. In this analogy, a resistor will be a constriction in the pipe (i.e. it keeps water / electricity from flowing).
 
-![[Pasted image 20220921154416.png]]
+![[resistor.png]]
 
 In this example, the resistor is a small tube with cross sectional area *A* and length *L*. The resistance of this resistor is modeled by the equation
 
@@ -38,7 +38,7 @@ where $L \text{ and } A$ are the quantities mentioned above and $\rho$ is resist
 **Capacitors**
 Think of a parallel plate capacitor. The capacitance, or the ability of the component to store an electric charge, like the resistor, is dictated by the geometry of the component. 
 
-![[Pasted image 20220921155107.png]]
+![[parallel plat capacitor.png]]
 
 Here we have a parallel plat capacitor where the two plates have an area $A$ and are separated by a distance $d$. The capacitance is defined by:
 
