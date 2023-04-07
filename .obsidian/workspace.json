@@ -26,7 +26,11 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "physics/physics 1/Summary - key ideas in fluid dynamics (introductory physics).md",
+
+                "file": "physics/physics 2/Notes - magnetism.md",
+
+                
+
 
                 "mode": "source",
                 "source": false
@@ -92,7 +96,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "physics/physics 1/Summary - key ideas in fluid dynamics (introductory physics).md",
+
+                "file": "physics/physics 2/Notes - magnetism.md",
 
                 "collapseAll": false,
                 "extraContext": false,
@@ -111,27 +116,19 @@
     "width": 300,
     "collapsed": true
   },
-  "left-ribbon": {
-    "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false
-    }
-  },
-  "active": "9549ea9ac4461792",
+
+  "active": "1f43de2a15f509a5",
   "lastOpenFiles": [
-    "physics/physics 2/Notes - circuits.md",
-    "physics/physics 2/Notes - circuits.pdf",
-    "Data science, machine learning/statistics/time series analysis (book)/chapter_1.md",
-    "physics/physics 2/Notes - 4 equations for electrostatics.pdf",
-    "physics/physics 2/Electric fields.md",
-    "Data science, machine learning/statistics/Principles of hypothesis testing.md",
-    "Data science, machine learning/statistics/Stationary time series processess.md",
-    "Data science, machine learning/statistics/Covariance matrices.md",
-    "physics/physics 2/images/4 equations for electrostatics.png",
-    "physics/physics 2/Notes - Gauss's Law.md"
+    "physics/physics 2/Notes - AC Circuits.md",
+    "physics/physics 1/Summary - key ideas in fluid dynamics (introductory physics).md",
+    "AI/machine learning/Naive Bayes.pdf",
+    "math/stats/Probability distributions.md",
+    "math/stats/One-way ANOVA.md",
+    "AI/machine learning/SMOTE.md",
+    "math/stats/Generalized Linear Models.md",
+    "math/calculus 3/Notes - volumes of common geometries.md",
+    "physics/physics 2/Notes - Electromotive force (nonideal batteries).pdf",
+    "physics/physics 2/Notes - circuits.pdf"
 
   ]
 }
