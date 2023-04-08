@@ -13,7 +13,6 @@
             "state": {
               "type": "markdown",
               "state": {
-
                 "file": "physics/physics 2/Notes - circuits.md",
                 "mode": "source",
                 "source": false
@@ -27,14 +26,23 @@
               "type": "markdown",
               "state": {
                 "file": "physics/physics 1/Summary - key ideas in fluid dynamics (introductory physics).md",
-
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "03d20c1234b61592",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.16"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -76,7 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 405.51103591918945
+    "width": 347.01103591918945
   },
   "right": {
     "id": "55a20cd6ff21553e",
@@ -93,7 +101,6 @@
               "type": "backlink",
               "state": {
                 "file": "physics/physics 1/Summary - key ideas in fluid dynamics (introductory physics).md",
-
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +127,7 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "9549ea9ac4461792",
+  "active": "03d20c1234b61592",
   "lastOpenFiles": [
     "physics/physics 2/Notes - circuits.md",
     "physics/physics 2/Notes - circuits.pdf",
@@ -132,6 +139,5 @@
     "Data science, machine learning/statistics/Covariance matrices.md",
     "physics/physics 2/images/4 equations for electrostatics.png",
     "physics/physics 2/Notes - Gauss's Law.md"
-
   ]
 }
