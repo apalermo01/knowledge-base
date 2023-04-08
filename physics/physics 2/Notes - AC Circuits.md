@@ -33,7 +33,7 @@ $$
 **Resistor**
 - same as DC resistance (use rms values for V and I)
 
-**Capacitor**
+**Capacitor**  
 - called capacitave reactance
 - complex contribution to impedance ($\frac{-j}{\omega c}$)
 $$
