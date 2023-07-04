@@ -14,7 +14,7 @@ list of character format options:
 - %x    -> hexidecimal
 - %c    -> character
 - %s    -> string
-- %%    -> % itself
+- %\%   -> % itself
 
 ## 1.4 symbolic constants
 
@@ -29,7 +29,7 @@ syntax:
 
 
 ## 1.5 character input and output
-
+vv
 - `getchar()` -> reads the next character of input
 - `putchar()` -> prints a character
 

@@ -17,6 +17,7 @@ int main_old1(){
 int main(){
 	int c;
 	printf("EOF is %d", EOF);
+	printf("getchar() != EOF is %d", getchar() != EOF);
 	while ((c=getchar()) != EOF)
 		putchar(c);
 }
