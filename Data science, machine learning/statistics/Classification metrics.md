@@ -1,12 +1,19 @@
 - Accuracy = (TP + TN) / (TP + FP + FN + TN)
 	- use this when the dataset classes are well balanced
+
 - Precision = (TP) / (TP + FP)
 	- use this when false positives are unacceptable
 	- examples: credit default, crime prediction, etc.
 	- If a model is optimized for precision, lots of true positives will fall through the cracks, but those that we do catch we can be more certain that it's not a false positive
+	- Use this when you want to:
+		- correctly identify positive classes
+		- avoid false alarms (false positive)
+	- A very precise model means that when it makes a positive prediction, you can be confident that it's correct, at the mistake of occasional false negatives
+	
 - Recall / recall / hit rate / true positive rate / sensitivity
 	- Use this when false negatives are unacceptable
 	- probability of a positive test, conditioned on truly being positive
+	- A highly sensitive model means that when it makes a negative prediction, you can be confident that it's correct, at the expense of occasional false positives
 	- examples: medical screening / diagnosis
 	- If a model is optimized for recall, you may get lots of false alarms, but you'll be very likely to capture all the real emergencies
 $$
@@ -14,6 +21,12 @@ $$
 $$
 - Specificity
 	- Probability of a negative test, conditioned on being truly negative
+	- True negative rate
+	- how well the model correctly identifies the negative class
+	- Use  this when you want to:
+		- correctly identify negative classes
+		- avoid false alarms (false positive)
+	- If a model is very specific, then 21
 $$
 \text{specificity} = \frac{\text{true negatives}}{\text{total \# of negatives}} = \frac{\text{TN}}{\text{TN} + \text{FP}}
 $$
@@ -66,6 +79,17 @@ Where green > orange > red
 to sum up the results of the ROC analysis, use AUC (Area under the curve) (also called a **c-statistic**)
 
 higher AUC generally means a better model
+
+
+## Log loss
+
+If the model predicts a probability, then you can use log loss (i.e. crossentropy loss) to penalize the model more for worse predictions (e.g. predicting 10% chance of being True when the sample is True is punished more harshly than if the prediction was 40%)
+
+$$
+L = -(y\log(p) + (1-y)\log(1-p))
+$$
+
+Note that this expects the dataset to be balanced
 
 ## References
 - https://towardsdatascience.com/the-5-classification-evaluation-metrics-you-must-know-aa97784ff226
