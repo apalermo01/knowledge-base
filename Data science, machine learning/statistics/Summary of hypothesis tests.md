@@ -44,6 +44,7 @@
 - **Multivariate ANOVA (MANOVA)**: An extension of ANOVA that covers situations where there is more than one dependent variable to be tested
 
 
+
 # Details, examples, assumptions, and caveats
 
 ### Chi-Square test for independence
@@ -247,6 +248,251 @@ $$
 t = \frac{\bar D}{\text{SE}(\bar D)} = \frac{\bar D}{\hat \sigma_D / \sqrt{N}}
 $$
 
+### Two-Sample Wilcoxon Test (aka Mann-Whitney test)
+**Asks: I'd like to run a t-test, but the data does not follow a normal distribution**
+
+This is a non-parametric alternative to a t-test
+
+Suppose we have 2 groups and some scores:
+
+| score | group |
+| --- | --- |
+| 1 | A |
+| 2 | B |
+| 2.5 | A |
+| 2.2 | B |
+
+All we have to do a make a table that compares every observation in each group, and mark where group A is greater.
+
+| | 2 (group B) | 2.2 (group B) |
+| -- | --- | --- |
+| 1 (group A) | | | 
+| 2.5 ( Group A ) | x | x | 
+
+There are 2 marks, so our test statistic is 2.
+
+The actual sampling is complicated, just plug this into a computer and it'll get you the p-value.
+
+### One-sample Wilcoxon test (aka paired samples Wilcoxon test)
+**Asks: I want to do a paired-samples t-test, but the data does not follow a normal distrubtion**
+
+Construct this the same way you would construct a 2-sample wilcoxon test, where one variable is the positive differences between the two measurements and the other variable is all the differences
+
+
+### One-way ANOVA
+**Asks: I have several groups of observations, do these groups differ in terms of some outcome variable of interest?**
+
+see [[One-way ANOVA]] a more detailed explaination
+
+We can attribute the variance observed when fitting the model to two sources:
+- 1) differences in the the groups (**between group SS**)
+- 2) differences within each group (**within-group SS**)
+
+**If the differences between the groups constitutes a large enough proportion of the total variation, then we can conclude that the difference is actually due to different means**
+
+- This is similar to linear regression but we're using a categorical variable to predict a continuous variable.
+
+
+**Assumptions**
+- Residuals are normally distributed (use QQ plot or Shapiro-Wilk test)
+- homogeneity of variance / homoscedasicity
+- independence of residuals
+
+### Kruskal-Wallis test
+**Asks: I want to do ANOVA, but the data is not normally distributed**
+
+This is a non-parametric test to compare the means of 3 or more groups
+
+- In ANOVA, we started with $Y_{ik}$ - the outcome of the $i$th person in the $k$th group. Now, rank order those values and do the analysis on the ranked data.
+- Let $R_{ik}$ be the ranking of the $i$th member in the $k$th group. Calculate the average rank given to the observations in the $k$th group:
+
+$$
+\bar R_k = \frac{1}{N_k} \sum_{i} R_{ik}
+$$
+
+also calculate the grand mean rank
+
+$$
+\bar R = \frac{1}{N} \sum_i \sum_k R_{ik}
+$$
+
+Now we can calculate variances from the mean rank:
+
+**How far the $ik$th observation deviates from the grand mean rank**
+$$
+\text{RSS}_{\text{tot}} = \sum_k \sum_i (R_{ik} - \bar R)^2
+$$
+
+**How much the group deviates from the grand mean rank**
+$$
+\text{RSS}_{\text{b}} = \sum_k \sum_i (\bar R_k - \bar R)^2 = \sum_k N_k (\bar R_k - \bar R)^2
+$$
+
+Now we'll build the test statistic as a comparison between how much the group deviates from the grand mean rank vs. how much the individual samples deviate
+
+$$
+K = (N-1) \times \frac{\text{RSS}_{\text{b}}}{\text{RSS}_{\text{tot}}}
+$$
+
+This means that if K is sufficiently large, then the group deviations explains a lot of the variance, so we may conclude that the differences are real.
+
+$K$ follows approximately a $\chi^2$ distribution with $G-1$ degrees of freedom ($G$ = number of groups)
+
+Sometimes you'll see $K$ written as (after some algebraic magic):
+
+$$
+K = \frac{12}{N(N-1)} \sum_k N_k \bar R_k^2 - 3(N+1)
+$$
+
+**But what if there are ties?**
+Compute a frequency table with the observed value and number of times you observed it, call this $f_j$, so if you observe the value 4 three times, then $f_4$ = 3
+
+Compute the tie correction factor (TCF):
+$$
+\text{TCF} = 1 - \frac{\sum_j f_j^3 - f_j}{N^3 - N}
+$$
+
+and divide $K$ by this value:
+
+$$
+K_{\text{corrrected}} = \frac{K}{\text{TCF}}
+$$
+### Pearson Correlation
+**Asks: What is the relationship between the two variables, and is it significant?**
+
+$$
+r_{\text{XY}} = \frac{\text{Cov}(X, Y)}{\hat \sigma_X \hat \sigma_Y}
+$$
+
+$r=1$ is a perfectly positive relationship, $r=-1$ is a perfectly negative relationship, and $r=0$ is no relationship
+
+If you run a hypothesis test for the significance of this correlation, **it is identical to the t-test that's run on a single coefficient of a regression model** 
+
+### Spearman's rank correlation
+**Asks: What is the relationship between two variables, and how can we tell whether the relationship is ACTUALLY linear?**
+
+To elaborate on the asks section, think about the 80/20 rule. 20% effort can lead to 80% improvement - this is NOT a linear relationship. Another way to think of it is we want to capture the idea of diminishing returns. 
+
+As another example, consider **Anscombe's quartet** - it's a set of 4 completely different datasets that all have a pearson correlation of $r=0.816$
+
+To account for this, instead of comparing X with Y, compare the RANK of X and Y. For example, if our dataset is:
+![[Pasted image 20230720201625.png]]
+
+The rank data would be:
+![[Pasted image 20230720201653.png]]
+
+(datasets come from section 5.7.6 of learning statistics with R)
+
+Now we can just do regular person's correlation on this transformed data.
+
+### $R^2$ Value
+**Asks: How good is my regression model at fitting the data?**
+
+Calculate the sum of the squared residuals:
+$$
+\text{SS}_{\text{res}} = \sum_i (Y_i - \hat Y_i)^2
+$$
+and the total variability in the outcome variable
+$$
+\text{SS}_{\text{tot}} = \sum_i (Y_i - \bar Y)^2
+$$
+
+The **Coefficient of determination**, or $R^2$, quantifies the proportion of the variance in the outcome variable that can be accounted for by the predictor
+
+$$
+R^2 = 1 - \frac{\text{SS}_{\text{res}}}{\text{SS}_{\text{tot}}}
+$$
+
+**This is the square of the pearson correlation**: $R^2 = \text{cor}(X, y)^2$
+### Adjusted $R^2$ Value
+Adding more predictors will always cause $R^2$ to increase, so there's another version of $R^2$ that takes degrees of freedom into account. If you have $K$ predictors and $N$ observations:
+
+$$
+\text{adj. } R^2 = 1 - (\frac{\text{SS}_{\text{res}}}{\text{SS}_{\text{tot}}} \times \frac{N-1}{N-K-1}) 
+$$
+this will only increase if the new variables improve model performance than you'd expect by chance, however you can't interpret it the same way as $R^2$. 
+
+**$R^2$ or adjusted $R^2$?**
+
+Do you want the results to be interpretable? $R^2$
+Do you want to correct for bias? adjusted $R^2$
+
+
+### Hypothesis test for a regression model
+**Asks: I just fit a regression model: Y = mx + b. Is there an actual relationship between the predictors and outcome?**
+
+Our hypotheses:
+
+$$
+\begin{align}
+H_0: Y_i =& b_0 + \epsilon_i \\
+H_1: Y_i =& (\sum_{k=1}^K b_k X_{ik}) + b_0 + \epsilon_i
+\end{align}
+$$
+We're going to treat this JUST LIKE ANOVA, except instead of comparing between- and within- group variances, we're going to compare the residual variance and the model variance.
+
+$$
+\text{SS}_{\text{mod}} = \text{SS}_{\text{tot}} - \text{SS}_{\text{res}}
+$$
+
+where:
+$$
+\text{SS}_{\text{tot}} = \sum_i (Y_i - \bar Y)^2
+$$
+and
+$$
+\text{SS}_{\text{res}} = \sum_i (Y_i - \hat Y_i)^2
+$$
+
+
+now divide by degrees of freedom: $df_{\text{mod}} = K$, $df_{\text{res}} = N - K - 1$
+
+$$
+\text{MS}_{\text{mod}} = \frac{\text{SS}_{\text{mod}}}{\text{df}_{\text{mod}}}
+$$
+$$
+\text{MS}_{\text{res}} = \frac{\text{SS}_{\text{res}}}{\text{df}_{\text{res}}}
+$$
+Finally run the F-test with the test statistic:
+
+$$
+F = \frac{\text{MS}_{\text{mod}}}{\text{MS}_{\text{res}}}
+$$
+
+
+
+### Hypothesis test for regression coefficients
+**Asks: Is this specific coefficient in a linear regression model meaningful?**
+
+Example: let's say we fit the model: $y = 5x_1 + 0.1x_2 + 3$. Is there actually a relationship between $x_2$ and $y$?
+
+Our null hypothesis is that the true regression coefficient is 0:
+
+$$
+\begin{align}
+H_0:& \quad b = 0 \\
+H_1:& \quad b \neq 0
+\end{align}
+$$
+
+If we assume that the sampling distribution of coefficient is normal (which is a safe assumption given the central limit theorem), then **This is just a t-test**
+
+$$
+t = \frac{\hat b}{\text{SE}(\hat b)}
+$$
+
+degrees of freedom = $df = N - K - 1$
+
+Standard error of the regression coefficient is complex to calculate. Based on the footnote in learning statistics with R it goes something like this:
+
+- The vector of residuals is $\epsilon = y - X \hat b$
+- Residual variance is: $\hat \sigma^2 = \epsilon ^T \epsilon / (N - K - 1)$
+- Covariance matrix for the coefficients is: $\hat \sigma ^2 (X^T X)^{-1}$ 
+- The diagonal of these is $\text{SE}(\hat b)$ - our standard error
+- **This reminds me of the formula for PCA - maybe there's a connection?** 
+
+**This test is identical to the test for the significance of a pearson correlation**
+
 ## Assumption tests
 ### Levene test
 **asks: Do my groups have the same population variance?**
@@ -303,9 +549,53 @@ with $df = N-1$
 
 ### Bartlett test
 
-- this is a good check to run if you're not sure that the data is normal [ref](https://accendoreliability.com/hartleys-test-variance-homogeneity/) 
+The steps for this test are pretty extensive, but it's another test for equality of variance and is a good option if you're not sure that the data is normally distributed.
+
+See the steps here:
+https://accendoreliability.com/bartletts-test-homogeneity-variances/
+
+
+## Post-hoc tests
+**Asks: I ran anova with more than two groups and got a significant result. *which groups are actually different?***
+
+The simplest approach is to run a series of t-tests between pairs of groups. So if you have groups A, B, and C - you'll want to do t-tests comparing groups A & B, A & C, B & C, etc. 
+
+A word of caution: when you start running post-hoc tests you'll start running lots and lots of tests (like a fishing expedition) without a lot of theoretical guidance. If you run 45 t-tests to check an anova from 10 different predictors, you'd expect 2-3 of them to be significant by chance alone. When this happens, *Your type-I error rate has gotten out of control*
+
+### Bonferroni's correction
+
+Adjust your p-values to account for multiple tests. If you run $m$ separate tests and the original p-value is $p$, then your adjusted $p$ - value is:
+
+$$
+p' = m \times p
+$$
+and reject the null hypothesis if $p' < \alpha$
+
+### Holm correction
+
+This is normally used more frequently than Bonferroni. It has the same type I error rate but it has a lower type II error rate (more *powerful* than Bonferroni)
+
+To perform the correction:
+
+- Sort all the p-values in order from smallest to largest
+- For the smallest p-value, multiply it by m (the number of tests you ran) - then you're done
+- For the larger p-values:
+	- multiply the p-value by $m-n$, where $n$ is the number of times you've iterated so far.
+	- If this number is bigger than the adjusted p-value from last time, keep it.
+	- If this number is smaller, then copy the last p-value
+	- repeat
+
+
+### Turkey's HSD (Honestly Significant Difference) test
+**Asks: Are the pairwise differences between two groups significantly different?**
+
+- Constructs simultaneous confidence intervals for all comparisons
+- 95% simultaneous confidence interval means that there's a 95% probability that ALL of the confidence intervals contain the relevant true value. 
+- can use these to calculate an adjusted $p$ value for any comparison
+
 # References
 
 - Multiple conversations with chatGPT 
-- Learning Statistics with R, chapter 12.1, 12.7, 13
+- Learning Statistics with R, chapters 5, 12.1, 12.7, 13, 14, 15
 - https://accendoreliability.com/hartleys-test-variance-homogeneity/
+- https://www.youtube.com/watch?v=oOuu8IBd-yo
