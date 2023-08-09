@@ -1,9 +1,9 @@
-If we have enought samples (enough to be condifent that the sampling distribution of the mean is normal), then the confidence interval is:
+If we have enough samples (enough to be confident that the sampling distribution of the mean is normal), then the confidence interval is:
 
 $$
 \text{CI} = \bar X \pm (q \times \frac{\sigma}{\sqrt{N}})
 $$
-where $q$ corresponds to the (1 - CI/2)th quantile from the normal distrubtion (for a 95% CI, this number is 1.96)
+where $q$ corresponds to the (1 - CI/2)th quantile from the normal distribution (for a 95% CI, this number is 1.96)
 
 This formula requires us to know the population variance ($\sigma$). Since we don't know that most of the time, we can:
 - instead of a normal distribution, find q for a **t-distribution** with degrees of freedom $N-1$ 

@@ -188,4 +188,4 @@ $$
 
 where the vertex of the parabola is $(h, k)$
 
-Note: I like to link up this act of adding and subtracting $(\frac{b}{2})^2$ to multilpying and dividing by the same number when manipulating fractions - both are examples of doing essentially nothing to make manipulating the expression easier. 
+Note: I like to link up this act of adding and subtracting $(\frac{b}{2})^2$ to multiplying and dividing by the same number when manipulating fractions - both are examples of doing essentially nothing to make manipulating the expression easier. 

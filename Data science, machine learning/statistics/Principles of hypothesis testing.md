@@ -102,8 +102,22 @@ source: https://www.dataday.life/blog/statistics/mnemonic-for-remembering-type-i
 
 ## p-values
 
-#### Neyman's interpretation
-- 
+**Neyman's interpretation**
+"$p$ is defined to be the smallest type I error rate ($\alpha$) that you have to be willing to tolerate if you want to reject the null hypothesis."
+
+**Fischer's interpretation**
+"...the probability that we would have observed a test statistic that it at least as extreme as the one we actually did get. In other words, if the data are extremely implausible according to the null hypothesis, then the null hypothesis is probably wrong."
+
+
+**The interpretation that is ALWAYS wrong**
+the probability that the null hypothesis is true.
+
+## One-sided vs. two-sided tests
+
+One-sided: looking for an increase in a value (ex: testing whether increasing study time also increases test scores)
+
+two-sided: looking for change in a value (ex: testing whether increasing study time changes test scores)
+
 # References
 - Learning statistics with R chapter 11
--  
+- 
