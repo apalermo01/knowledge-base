@@ -96,4 +96,5 @@
 - Learning Statistics with R chapter 2
 - https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.LabelEncoder.html
 - https://towardsdatascience.com/what-why-and-how-of-t-sne-1f78d13e224d
+- https://www.statology.org/dummy-variables-regression/
 - Conversations with ChatGPT

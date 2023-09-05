@@ -81,5 +81,17 @@ $$
 - Homogeneity of variance / homoscedasicity (every group has the same standard deviation)
 - independence (knowing one residual tells you nothing about any other residual)
 
+## Connections to linear models
+
+If you run linear regression on categorical / dummy variables, then the F-test for model fit (e.g. are the coefficients significant?) - that is mathematically equivalent to ANOVA.
+
+Example:
+let's say we have 3 groups: A, B, C
+
+If we run ANOVA, we're checking if the means of each of these groups are different
+
+In linear regression, we have a model like: $Y = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \epsilon$ where $(x_1, x_2) = (1, 0)$ for group A, $(0, 1)$ for group B, and $(0, 0)$ for group C. $\beta_1$ and $\beta_2$ represent the difference in means between group A and C, and group B and C. The F-test in regression will check if $\beta_1$ or $\beta_2$ are different from zero, which is exactly what the ANOVA F-test is checking
+
+If we wanted to account for an interaction term, include a new term that's the product of $x_1$ and $x_2$:$Y = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + + \beta_3 (x_1 \times x_2) \epsilon$ 
 ## References
 - learning statistics with R chapter 14 (see both the textbook and the assocated [summary](obsidian://open?vault=knowledge-base&file=math%2Fstats%2FLearning%20Statistics%20with%20R%2FLearning%20Statistics%20with%20R%20chapter%2014))

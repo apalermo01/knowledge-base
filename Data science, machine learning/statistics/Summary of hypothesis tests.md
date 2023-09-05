@@ -599,3 +599,5 @@ To perform the correction:
 - Learning Statistics with R, chapters 5, 12.1, 12.7, 13, 14, 15
 - https://accendoreliability.com/hartleys-test-variance-homogeneity/
 - https://www.youtube.com/watch?v=oOuu8IBd-yo
+- https://www.scribbr.com/statistics/chi-square-test-of-independence/
+- https://www.statology.org/fishers-exact-test/

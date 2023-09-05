@@ -6,6 +6,12 @@
 
 [coding bat](https://codingbat.com/python) (some programming exercises for python and java)
 
+[SQL zoo](https://sqlzoo.net/wiki/SQL_Tutorial) - great resource for sql tutorials
+
+Most major python libraries have tutorial notebooks that are great for picking up the basics:
+https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html
+https://numpy.org/doc/stable/user/quickstart.html
+https://scikit-learn.org/stable/tutorial/index.html
 
 
 ## Machine learning
@@ -42,3 +48,5 @@
 [The Cherno](https://www.youtube.com/@TheCherno) (C++)
 
 [Michel Van Biezen](https://www.youtube.com/@MichelvanBiezen) (an insane amount of material covering math, physics, engineering, etc.)
+
+[Network Chuck](https://www.youtube.com/@NetworkChuck) (Networking, hacking, bash, etc.)

@@ -1,6 +1,4 @@
 
-TODO: derive optimization condition for OLS regression
-
 
 Linear regression model:
 
