@@ -51,4 +51,4 @@ https://scikit-learn.org/stable/tutorial/index.html
 
 [Network Chuck](https://www.youtube.com/@NetworkChuck) (Networking, hacking, bash, etc.)
 
-- no boilerplate
+[No Boilerplate](https://www.youtube.com/c/NoBoilerplate) (Rust, technology, life advice)
