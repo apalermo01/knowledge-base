@@ -50,3 +50,5 @@ https://scikit-learn.org/stable/tutorial/index.html
 [Michel Van Biezen](https://www.youtube.com/@MichelvanBiezen) (an insane amount of material covering math, physics, engineering, etc.)
 
 [Network Chuck](https://www.youtube.com/@NetworkChuck) (Networking, hacking, bash, etc.)
+
+- no boilerplate
