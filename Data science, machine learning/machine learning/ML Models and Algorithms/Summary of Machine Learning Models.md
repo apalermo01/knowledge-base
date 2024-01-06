@@ -1,10 +1,8 @@
-
-
 # Regression
 
 ## Linear Regression
 
-Just like linear regression in stats, find the weights ($\omega_1, \omega_2, ... \omega_n$) that best fit the equation
+Just like linear regression in stats ([[Ordinary Least Squares derivation]]), find the weights ($\omega_1, \omega_2, ... \omega_n$) that best fit the equation
 $$
 y = \omega_1 x_1 + \omega_2 x_2 + ... + \omega_n x_n
 $$
@@ -41,17 +39,7 @@ $$
 \text{error} = \Vert X\omega - y\Vert_2^2 + \alpha \rho \Vert \omega\Vert_1 + \frac{\alpha(1-\rho)}{2}\Vert \omega\Vert _2^2
 $$
 
-## Decision Tree Regression
-Non parametric - learns a series of rules (e.g. if x1 < 2 then ... ) to predict a value.
-- simple to interpret, can be visualized
-- prone to overfitting
-- recommended to use ensemble methods (e.g. random forest)
 
-## K Nearest Neighbors Regressor
-- For every datapoint you want to do predictions on, get the K nearest points in the features space. The average of the nearest labels is the prediction
-- Note that this is a distance-based model, so the data should be scaled.
-- non parametric
-- computationally expensive
 
 # Classifiers
 
@@ -76,10 +64,6 @@ and we want to select the value (class) of $y$ that maximizes this probability
 
 See the dedicated note on Naive Bayes in this folder for more info. 
 
-## Decision tree classification
-- Non parametric classifier, works in the same way as decision tree regression but the output is a class
-- can be biased - **it is recommended to use a balanced dataset (e.g. run something like  SMOTE)** 
-
 ## Logistic Regression
 
 Similar to linear regression, but runs the output of the linear function through a sigmoid:
@@ -91,8 +75,44 @@ where $y$ is a binary outcome (0 or 1, success or fail, etc.) and $P(y)$ is the 
 
 Note that logistic regression is a special case of [[Generalized Linear Models]]
 
-## K Nearest Neighbors Classifier
+## Bagging classifiers
+
+
+# Algorithms that work with regression and classification
+
+
+## Support vector machines
+
+**classification**
+
+**regression**
+
+## Decision trees
+
+**classification**
+
+- Non parametric classifier, works in the same way as decision tree regression but the output is a class
+- can be biased - **it is recommended to use a balanced dataset (e.g. run something like  SMOTE)** 
+- Criteria: [[Gini Index]]
+
+**Regression**
+Non parametric - learns a series of rules (e.g. if x1 < 2 then ... ) to predict a value.
+- simple to interpret, can be visualized
+- prone to overfitting
+- recommended to use ensemble methods (e.g. random forest)
+## Random Forests
+
+
+## K Nearest Neighbors
+
+**classification**
 - For every datapoint you want to do predictions on, get the K nearest points in the features space. The most common label among those nearest points is the prediction.
+- Note that this is a distance-based model, so the data should be scaled.
+- non parametric
+- computationally expensive
+
+**regression**
+ - For every datapoint you want to do predictions on, get the K nearest points in the features space. The average of the nearest labels is the prediction
 - Note that this is a distance-based model, so the data should be scaled.
 - non parametric
 - computationally expensive

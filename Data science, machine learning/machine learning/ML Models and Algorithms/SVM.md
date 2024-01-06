@@ -13,10 +13,10 @@ Note: this discussion came out of prep for a series of tutoring sessions focused
 The loss function for this model is:
 
 $$
-(\hat{\bold w}, \hat{b}) = \text{argmin}_{(w, b) \in \mathbb{R}^(q+1) } \lbrace \frac{1}{n} \sum_{i=1}^{n} \text{max} (1 - y_i (\bold{w}^T \bold{w} + b), 0) + \frac{1}{2} \lambda ||w||_2^2 \rbrace
+(\hat{\boldsymbol w}, \hat{b}) = \text{argmin}_{(w, b) \in \mathbb{R}^(q+1) } \lbrace \frac{1}{n} \sum_{i=1}^{n} \text{max} (1 - y_i (\boldsymbol{w}^T \boldsymbol{w} + b), 0) + \frac{1}{2} \lambda ||w||_2^2 \rbrace
 $$
 
-$\text{max} (1-y_i (\bold{w}^T\bold{w} + b), 0)$ punishes datapoints that are on the wrong side of the classifier
+$\text{max} (1-y_i (\boldsymbol{w}^T\boldsymbol{w} + b), 0)$ punishes datapoints that are on the wrong side of the classifier
 
 $\frac{1}{2} \lambda ||w||_2^2$ punishes datapoints that are close to the decision boundary
 

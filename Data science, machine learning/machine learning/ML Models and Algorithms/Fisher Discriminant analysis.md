@@ -17,24 +17,24 @@ The goal is to find $w$ that best separates the data (i.e. the means of the two 
 **Fisher's criterion**
 
 $$
-J(w) = \frac{(m_1 - m_2)^2}{s_1^2 + s_2^2} = \frac{\bold{w}^T S_b \bold{w}}{\bold{w}^T S_w \bold{w}}
+J(w) = \frac{(m_1 - m_2)^2}{s_1^2 + s_2^2} = \frac{\boldsymbol{w}^T S_b \boldsymbol{w}}{\boldsymbol{w}^T S_w \boldsymbol{w}}
 $$
 
 top: distance between projected means<br>
 bottom: within-class variance
 
 $$
-S_b = (\bold{m_2} - \bold{m_1}) (\bold{m_2} - \bold{m_1})^T
+S_b = (\boldsymbol{m_2} - \boldsymbol{m_1}) (\boldsymbol{m_2} - \boldsymbol{m_1})^T
 $$
 
 $$
-S_w = \sum_{n \in C_1} (x_n - \bold{m_1}) (x_n - \bold{m_1})^T + \sum_{n \in C_2} (x_n - \bold{m_2})(x_n - \bold{m_2})^T
+S_w = \sum_{n \in C_1} (x_n - \boldsymbol{m_1}) (x_n - \boldsymbol{m_1})^T + \sum_{n \in C_2} (x_n - \boldsymbol{m_2})(x_n - \boldsymbol{m_2})^T
 $$
 
 Once you take $\frac{\partial J(w)}{\partial w}$ and set it to 0, you find that:
 
 $$
-w \propto S_w^{-1} (\bold{m_2} - \bold{m_1})
+w \propto S_w^{-1} (\boldsymbol{m_2} - \boldsymbol{m_1})
 $$
 ## References
 
