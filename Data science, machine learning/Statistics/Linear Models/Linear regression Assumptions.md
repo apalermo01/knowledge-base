@@ -1,4 +1,4 @@
-Linearity
+**Linearity**
 - how to identify:
 	- plot of observed vs. predicted values
 	- plot of residuals vs predicted values (should be symmetrical)
@@ -8,7 +8,7 @@ Linearity
 	- polynomial regression
 	- use another model
 
-Independence (no auto-correlation)
+**Independence (no auto-correlation)**
 - how to identify:
 	- residual time series plot (residual vs row number)
 	- table / plot of residual auto-correlations
@@ -19,11 +19,15 @@ Independence (no auto-correlation)
 	- adjust the lag
 	- adjust for seasonality
 
-no multicollinearity (input features have no relationship)
+**no multicollinearity (input features have no relationship)**
 - how to identify:
 	- test using correlation matrix
-	- Tolerance: $T = 1 - R^2$
+	- "Coefficients of variables are not individually significant (i.e. can't be rejected in the t-test), but can jointly explain the variance of the dependent variable with rejection in the F-test and a high $R^2$. 
+	- Tolerance: $T = 1 - R_i^2$
+		- $R_i$ = unadjusted coefficient of determination for regressing the ith independent variable on the remaining ones 
 	- Variance inflation factor VIF = 1/T
+		- VIF > 4 (or T < 0.25) indicates multicollinearity
+	- 
 - how to fix:
 	- variable selection (remove some of the offending variables)
 	- variable transformation
@@ -35,7 +39,7 @@ no multicollinearity (input features have no relationship)
 	- may cause overfitting
   
 
-equality of variance (homoscedasticity)
+**equality of variance (homoscedasticity)**
 - how to identify:
 	- plot of residuals vs predicted values or residuals vs time or residuals vs independent variables
 - how to fix:
@@ -43,7 +47,7 @@ equality of variance (homoscedasticity)
 	- not accounting for seasonal patterns
 	- check linearity / independence assumptions
 
-Errors are normally distributed
+**Errors are normally distributed**
 - how to identify
 	- normal probability or quantile plot (Q-Q plot?).
 	- shapiro-wilk test
@@ -56,3 +60,4 @@ https://medium.com/towards-data-science/multi-collinearity-in-regression-fe7a2c1
 https://www.statisticssolutions.com/free-resources/directory-of-statistical-analyses/assumptions-of-linear-regression/
 https://www.analyticsvidhya.com/blog/2016/07/deeper-regression-analysis-assumptions-plots-solutions/
 https://people.duke.edu/~rnau/testing.htm#linearity
+https://corporatefinanceinstitute.com/resources/data-science/variance-inflation-factor-vif/
