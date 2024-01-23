@@ -27,7 +27,10 @@
 		- $R_i$ = unadjusted coefficient of determination for regressing the ith independent variable on the remaining ones 
 	- Variance inflation factor VIF = 1/T
 		- VIF > 4 (or T < 0.25) indicates multicollinearity
-	- 
+	- Situations where high VIF can be ignored
+		- only exist in control variables but not variables of interest
+		- inclusion of products or powers of other variables (e.g. $x$ and $x^2$)
+		- dummy variable that represents more than 2 categories
 - how to fix:
 	- variable selection (remove some of the offending variables)
 	- variable transformation
