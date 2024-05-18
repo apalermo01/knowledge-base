@@ -147,7 +147,7 @@ with torch.no_grad():
 
 
     
-![png](Deep%20Learning%20With%20PyTorch%2016%20-%20TensorBoard_files/Deep%20Learning%20With%20PyTorch%2016%20-%20TensorBoard_1_1.png)
+![png](Deep%20Learning%20With%20PyTorch%2016%20-%20TensorBoard_1_1.png)
     
 
 

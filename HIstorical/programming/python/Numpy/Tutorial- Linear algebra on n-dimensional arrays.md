@@ -26,7 +26,7 @@ plt.imshow(img)
 
 
     
-![png](Tutorial-%20Linear%20algebra%20on%20n-dimensional%20arrays_files/Tutorial-%20Linear%20algebra%20on%20n-dimensional%20arrays_2_1.png)
+![png](Tutorial-%20Linear%20algebra%20on%20n-dimensional%20arrays_2_1.png)
     
 
 
@@ -149,7 +149,7 @@ plt.imshow(img_gray, cmap="gray")
 
 
     
-![png](Tutorial-%20Linear%20algebra%20on%20n-dimensional%20arrays_files/Tutorial-%20Linear%20algebra%20on%20n-dimensional%20arrays_19_1.png)
+![png](Tutorial-%20Linear%20algebra%20on%20n-dimensional%20arrays_19_1.png)
     
 
 
@@ -252,7 +252,7 @@ plt.plot(s)
 
 
     
-![png](Tutorial-%20Linear%20algebra%20on%20n-dimensional%20arrays_files/Tutorial-%20Linear%20algebra%20on%20n-dimensional%20arrays_32_1.png)
+![png](Tutorial-%20Linear%20algebra%20on%20n-dimensional%20arrays_32_1.png)
     
 
 
@@ -274,7 +274,7 @@ plt.imshow(approx, cmap="gray")
 
 
     
-![png](Tutorial-%20Linear%20algebra%20on%20n-dimensional%20arrays_files/Tutorial-%20Linear%20algebra%20on%20n-dimensional%20arrays_34_1.png)
+![png](Tutorial-%20Linear%20algebra%20on%20n-dimensional%20arrays_34_1.png)
     
 
 
@@ -363,7 +363,7 @@ plt.imshow(np.transpose(reconstructed, (1, 2, 0)))
 
 
     
-![png](Tutorial-%20Linear%20algebra%20on%20n-dimensional%20arrays_files/Tutorial-%20Linear%20algebra%20on%20n-dimensional%20arrays_44_2.png)
+![png](Tutorial-%20Linear%20algebra%20on%20n-dimensional%20arrays_44_2.png)
     
 
 
@@ -400,7 +400,7 @@ plt.imshow(np.transpose(approx_img, (1, 2, 0)))
 
 
     
-![png](Tutorial-%20Linear%20algebra%20on%20n-dimensional%20arrays_files/Tutorial-%20Linear%20algebra%20on%20n-dimensional%20arrays_47_2.png)
+![png](Tutorial-%20Linear%20algebra%20on%20n-dimensional%20arrays_47_2.png)
     
 
 

@@ -84,6 +84,6 @@ plt.plot(X_numpy, predicted, 'b')
 
 
     
-![png](Deep%20Learning%20With%20PyTorch%207%20-%20Linear%20Regression_files/Deep%20Learning%20With%20PyTorch%207%20-%20Linear%20Regression_3_2.png)
+![png](Deep%20Learning%20With%20PyTorch%207%20-%20Linear%20Regression_3_2.png)
     
 

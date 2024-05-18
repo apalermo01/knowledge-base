@@ -11,7 +11,7 @@
 - `__next__()` should return the next piece of data in the sequence.
 
 
-- [**generators**](generators) let you write functions that behave as iterators
+- [**generators**](generators.md) let you write functions that behave as iterators
 
 
 - **Generator expressions** are like [[list comprehensions]], except that they return a generator instead of a fully-formed list:

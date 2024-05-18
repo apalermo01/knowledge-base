@@ -117,7 +117,7 @@ plt.show()
 
 
     
-![png](Basic%20classification%20-%20Classify%20images%20of%20clothing_files/Basic%20classification%20-%20Classify%20images%20of%20clothing_12_0.png)
+![png](Basic%20classification%20-%20Classify%20images%20of%20clothing_12_0.png)
     
 
 
@@ -146,7 +146,7 @@ plt.show()
 
 
     
-![png](Basic%20classification%20-%20Classify%20images%20of%20clothing_files/Basic%20classification%20-%20Classify%20images%20of%20clothing_16_0.png)
+![png](Basic%20classification%20-%20Classify%20images%20of%20clothing_16_0.png)
     
 
 
@@ -305,7 +305,7 @@ plt.show()
 
 
     
-![png](Basic%20classification%20-%20Classify%20images%20of%20clothing_files/Basic%20classification%20-%20Classify%20images%20of%20clothing_34_0.png)
+![png](Basic%20classification%20-%20Classify%20images%20of%20clothing_34_0.png)
     
 
 
@@ -369,6 +369,6 @@ plt.show()
 
 
     
-![png](Basic%20classification%20-%20Classify%20images%20of%20clothing_files/Basic%20classification%20-%20Classify%20images%20of%20clothing_38_0.png)
+![png](Basic%20classification%20-%20Classify%20images%20of%20clothing_38_0.png)
     
 

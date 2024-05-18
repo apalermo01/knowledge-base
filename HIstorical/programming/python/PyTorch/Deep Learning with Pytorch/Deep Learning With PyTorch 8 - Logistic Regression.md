@@ -106,7 +106,7 @@ print(f"accuracy = {acc:.4f}")
 
 
     
-![png](Deep%20Learning%20With%20PyTorch%208%20-%20Logistic%20Regression_files/Deep%20Learning%20With%20PyTorch%208%20-%20Logistic%20Regression_3_1.png)
+![png](Deep%20Learning%20With%20PyTorch%208%20-%20Logistic%20Regression_3_1.png)
     
 
 

@@ -61,7 +61,7 @@ for i in range(6):
 
 
     
-![png](%20Deep%20Learning%20With%20PyTorch%2013%20-%20Feed-Forward%20Neural%20net_files/%20Deep%20Learning%20With%20PyTorch%2013%20-%20Feed-Forward%20Neural%20net_7_0.png)
+![png](%20Deep%20Learning%20With%20PyTorch%2013%20-%20Feed-Forward%20Neural%20net_7_0.png)
     
 
 

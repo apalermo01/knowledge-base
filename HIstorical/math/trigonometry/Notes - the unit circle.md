@@ -10,7 +10,7 @@
 
 Definition: Form an angle around a circle such that the arc length is the same as the radius of the circle. That angle is 1 radian (rad)
 
-![image](images/radian.png)
+![image](radian.png)
 
 To convert between radians and degrees:
 
@@ -22,7 +22,7 @@ $$
 **The unit circle is defined as a circle centered on the cartesian plane with 
 
 
-![image](images/Unit-circle.png)
+![image](Unit-circle.png)
 	 
 source: https://www.mometrix.com/academy/unit-circles-and-standard-position/
 
