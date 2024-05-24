@@ -1,4 +1,4 @@
-l## What is a probability distribution? 
+## What is a probability distribution? 
 
 Think of a probability distribution as a function that maps an elementary event (i.e. every time an observation happens, one and only one of these events will happen) to the probability that that event happens. 
 

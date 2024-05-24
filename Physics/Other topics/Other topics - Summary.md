@@ -1,0 +1,1 @@
+This folder has notes on [[Thermodynamics]], [[Waves]], and [[Optics]] - topics which are sometimes included in physics 1 and / or physics 2 courses but the level of detail tends to vary by institution.
