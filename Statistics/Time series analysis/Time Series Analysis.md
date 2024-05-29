@@ -1,0 +1,8 @@
+- [ ] #todo [[What is a time series?]]
+- [ ] #todo [[Stationary Time Series]]
+- [ ] #todo [[Autoregressive Model]] 
+- [ ] #todo [[Moving Average Model]]
+- [ ] #todo [[ARMA Model]]
+- [ ] #todo [[ARMIA Model]]
+- [ ] #todo [[Handling Trends]]
+- [ ] #todo [[Handling Seasonality]]
