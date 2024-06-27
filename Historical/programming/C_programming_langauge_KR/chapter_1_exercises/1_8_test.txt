@@ -1,5 +1,0 @@
-Hello! here are some blanks     endofline
-here is a tab       that's two
-There should be 23 spaces in this file
-2 tabs
-and 4 newlines

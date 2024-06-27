@@ -22,6 +22,9 @@ $$
 $$
 If there is truly no heteroskedasticity (the null hypothesis), then the current value of the residual will not depend on the previous values, so $\alpha_i = 0$ for $i > 0$. If we're working with $T$ residuals, then the test statistic is $T'R^2$, where $R^2$ is the [[Correlation, Covariance, and R Squared#$R 2$ (aka coefficient of determination)|coefficient of determination]]) and $T' = T - q$, which follows a [[Chi-squared]] distribution with $q$ degrees of freedom. 
 
+To run the test, use statsmodels:
+https://www.statsmodels.org/dev/generated/statsmodels.stats.diagnostic.het_arch.html
+
 # References & Links
 - https://www.investopedia.com/terms/a/autoregressive-conditional-heteroskedasticity.asp
 - https://en.wikipedia.org/wiki/Autoregressive_conditional_heteroskedasticity
