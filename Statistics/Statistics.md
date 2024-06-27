@@ -6,4 +6,5 @@ This section has everything you would see up to a second semester calculus-based
 - [ ] #todo generalized linear models (should this go in data science?)
 - [ ] #todo bayesian stats
 - [ ] #todo time series stats
+- [ ] #todo Organize notes / backlinks in Linear models folder
 - [ ] 

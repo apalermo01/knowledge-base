@@ -1,6 +1,6 @@
 
 ## Cook's Distance
-- Used to detect outliers in [[Linear Regression Derivation and Assumptions]] and [[HIstorical/Data science, machine learning/Statistics/Linear Models/Logistic Regression|Logistic Regression]]
+- Used to detect outliers in [[Linear Regression Derivation and Assumptions]] and [[Statistics/Frequentist methods/Linear Models/Logistic Regression|Logistic Regression]]
 - Formula:
 
 $$
