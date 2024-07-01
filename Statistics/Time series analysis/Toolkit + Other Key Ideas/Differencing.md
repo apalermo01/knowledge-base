@@ -2,7 +2,7 @@
 - Differencing is the act of taking differences between consecutive observations
 - This can help stabilize the mean of a time series, similar to how taking the [[Log Transformation|logarithm]] can stabilize the variance of a time series.
 
-- Use an [[ACF Plot]] to identify non-stationary time series.
+- Use an [[Autocorrelation function (ACF)]] to identify non-stationary time series. If a time series is stationary, then the ACF plot will go to zero pretty quickly. If a time series is not stationary, then the ACF plot will decrease slowly.
 
 
 ## Second-order differencing
