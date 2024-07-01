@@ -28,7 +28,7 @@ class Truck(Vehicle):
 		return 18
 ```
 
-`Vehicle` is a parent to `Bicycle`, `Car`, and `Truck`. Each of these 3 classes have a method called `drive` becuase it inherits that functionality from `Vehicle`- which calls some functionality that's defined elsewhere.
+`Vehicle` is a parent to `Bicycle`, `Car`, and `Truck`. Each of these 3 classes have a method called `drive` because it inherits that functionality from `Vehicle`- which calls some functionality that's defined elsewhere.
 
 Additionally, each of these 3 kinds of vehicles (along with anything else that inherits `Vehicle`) needs to have its own function definition for wheels- since not doing so would raise the `NotImplementedError`\*. 
 
