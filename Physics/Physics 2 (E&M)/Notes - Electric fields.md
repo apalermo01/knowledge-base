@@ -1,4 +1,4 @@
-- When dealing with coulomb's law, we were dealing with an interaction between 2 distinct charges
+- When dealing with [[coulomb's law]], we were dealing with an interaction between 2 distinct charges
 	- challenge: more difficult to deal with forces related to many charges or charged objects of different shapes
 
 - Goal: given that we know something about one charge (call it charge A), can we predict anything about what an arbitrary charge (charge B) passing by will experience? 

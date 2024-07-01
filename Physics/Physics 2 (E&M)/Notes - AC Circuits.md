@@ -33,7 +33,7 @@ $$
 **Resistor**
 - same as DC resistance (use rms values for V and I)
 
-**Capacitor**  
+**[[Notes - Capacitors|Capacitor]]**  
 - called capacitave reactance
 - complex contribution to impedance ($\frac{-j}{\omega c}$)
 $$
@@ -110,3 +110,5 @@ $$
 remember that we're doing these calculations with complex numbers, so the denominators must be rationalized. 
 
 See [this](http://hyperphysics.phy-astr.gsu.edu/hbase/electric/impcom.html#c1) for a more detailed overview of the forms we can use for dealing with complex impedance
+
+## References and Links

@@ -1,12 +1,9 @@
-# Circuits in a nutshell
-
-
 # Important quantities
 
-- current - amount of charge flowing through a component or wire (unit = amps = $A$ = coulombs per second = $\frac{C}{s}$)
-- resistance - ability of a material to dissipate charge (unit = ohms = $\Omega$ (greek letter omega))
-- voltage - potential difference between two points (this is electric potential - $k\frac{q}{r}$) (unit = voltage = $V$)
-- capacitance - ability of a material to hold charge (unit = Farad = $F$ = seconds per ohm = $\frac{s}{\Omega}$, base SI untis =$\frac{s^4 A^2}{kg m^2}$)
+- [[current]] - amount of charge flowing through a component or wire (unit = amps = $A$ = coulombs per second = $\frac{C}{s}$)
+- [[resistance]] - ability of a material to dissipate charge (unit = ohms = $\Omega$ (greek letter omega))
+- [[voltage]] - potential difference between two points (this is electric potential - $k\frac{q}{r}$) (unit = voltage = $V$)
+- [[capacitance]] - ability of a material to hold charge (unit = Farad = $F$ = seconds per ohm = $\frac{s}{\Omega}$, base SI untis =$\frac{s^4 A^2}{kg m^2}$)
 
 # Parallel vs. Series circuits
 

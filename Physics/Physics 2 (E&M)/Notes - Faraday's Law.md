@@ -4,7 +4,7 @@
 $$
 \mathcal{E} = - \frac{d \phi_b}{dt}
 $$
-What this says: The induced electromotive force (EMF) (aka voltage) is the negative of the rate of change of magnetic flux
+What this says: The induced electromotive force (EMF) (aka [[voltage]]) is the negative of the rate of change of magnetic flux
 
 
 ## Magnetic Flux

@@ -3,7 +3,7 @@
 - another definition of a conductor is a equipotenital surface
 - this means that the electric potential is constant EVERYWHERE
 - since electric field is the **slope** of electric potential, **THE ELECTRIC FIELD INSIDE A CONDUCTOR IS ZERO**
-- If you apply  Gauss's law (see [[Notes - Gauss's Law]]), that will tell you that there are no charges inside a conductor
+- If you apply  [[Notes - Gauss's Law|Gauss's law]], that will tell you that there are no charges inside a conductor
 	- Therefore all charges on a conductor reside on the surface.
 
 # References
