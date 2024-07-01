@@ -1,0 +1,1 @@
+This is a collection of tools and techniques that pop up in multiple areas of stats. In other words, I can't think of a better place to put them
