@@ -58,11 +58,6 @@
 ### rewind
 - moves the file position indicator to the beginning of the file stream
 
-# String manipulation
-
-# Memory management
-
-
 
 # References
 - https://devdocs.io/c/
