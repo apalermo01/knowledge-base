@@ -9,7 +9,8 @@ fdsik -l
 ```
 This will list available disks
 
-modify partition tables: 
+ modify partition tables: 
+ 
 ```zsh
 fdsik /dev/<disk>
 ```
