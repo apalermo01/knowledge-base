@@ -15,6 +15,12 @@
         "Shift"
       ],
       "key": "L"
+    },
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "N"
     }
   ],
   "app:toggle-right-sidebar": [
@@ -25,5 +31,6 @@
       ],
       "key": "R"
     }
-  ]
+  ],
+  "file-explorer:new-file": []
 }
